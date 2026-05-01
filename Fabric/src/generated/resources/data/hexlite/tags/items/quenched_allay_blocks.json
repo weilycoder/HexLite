@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "hexlite:quenched_allay",
+    "hexlite:quenched_allay_bricks",
+    "hexlite:quenched_allay_bricks_small",
+    "hexlite:quenched_allay_tiles"
+  ]
+}

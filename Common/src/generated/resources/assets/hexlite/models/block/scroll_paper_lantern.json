@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "hexlite:block/scroll_paper_lantern_bottom",
+    "side": "hexlite:block/scroll_paper_lantern_side",
+    "top": "hexlite:block/scroll_paper_lantern_top"
+  }
+}

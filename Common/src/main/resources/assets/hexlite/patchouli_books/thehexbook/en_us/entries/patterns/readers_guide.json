@@ -1,0 +1,25 @@
+{
+  "name": "hexlite.entry.readers_guide",
+  "category": "hexlite:patterns",
+  "icon": "minecraft:knowledge_book",
+  "advancement": "hexlite:root",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.readers_guide.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.readers_guide.2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.readers_guide.3"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.readers_guide.4"
+    }
+  ]
+}

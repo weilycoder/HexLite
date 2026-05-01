@@ -1,0 +1,26 @@
+{
+  "name": "hexlite.entry.interop.pehkui",
+  "icon": "minecraft:red_mushroom",
+  "category": "hexlite:interop",
+  "advancement": "hexlite:root",
+  "flag": "mod:pehkui",
+  "pages": [
+    "hexlite.page.interop.pehkui.1",
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:interop/pehkui/get",
+      "anchor": "hexlite:interop/pehkui/get",
+      "input": "entity",
+      "output": "num",
+      "text": "hexlite.page.interop.pehkui.get"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:interop/pehkui/set",
+      "anchor": "hexlite:interop/pehkui/set",
+      "input": "entity, num",
+      "output": "",
+      "text": "hexlite.page.interop.pehkui.set"
+    }
+  ]
+}

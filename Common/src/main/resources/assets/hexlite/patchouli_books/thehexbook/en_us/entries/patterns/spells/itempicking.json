@@ -1,0 +1,22 @@
+{
+  "name": "hexlite.entry.itempicking",
+  "category": "hexlite:patterns/spells",
+  "icon": "minecraft:item_frame",
+  "advancement": "hexlite:root",
+  "priority": true,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.itempicking.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.itempicking.2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.itempicking.3"
+    }
+  ]
+}

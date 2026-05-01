@@ -1,0 +1,16 @@
+{
+  "overrides": [
+    {
+      "model": "hexlite:item/crimson_staff",
+      "predicate": {
+        "hexlite:funny_level": 0.0
+      }
+    },
+    {
+      "model": "hexlite:item/cherry_staff",
+      "predicate": {
+        "hexlite:funny_level": 2.0
+      }
+    }
+  ]
+}

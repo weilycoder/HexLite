@@ -1,0 +1,50 @@
+{
+  "name": "hexlite.entry.sentinels",
+  "category": "hexlite:patterns/spells",
+  "icon": "minecraft:purple_candle",
+  "sortnum": 4,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.sentinels.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.sentinels.2"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:sentinel/create",
+      "anchor": "hexlite:sentinel/create",
+      "input": "vector",
+      "output": "",
+      "text": "hexlite.page.sentinels.sentinel/create"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:sentinel/destroy",
+      "anchor": "hexlite:sentinel/destroy",
+      "input": "",
+      "output": "",
+      "text": "hexlite.page.sentinels.sentinel/destroy"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:sentinel/get_pos",
+      "anchor": "hexlite:sentinel/get_pos",
+      "input": "",
+      "output": "vector",
+      "text": "hexlite.page.sentinels.sentinel/get_pos"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:sentinel/wayfind",
+      "anchor": "hexlite:sentinel/wayfind",
+      "input": "vector",
+      "output": "vector",
+      "text": "hexlite.page.sentinels.sentinel/wayfind"
+    }
+  ]
+}

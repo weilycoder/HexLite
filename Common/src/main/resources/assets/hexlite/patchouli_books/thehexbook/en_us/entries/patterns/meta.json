@@ -1,0 +1,63 @@
+{
+  "name": "hexlite.entry.meta",
+  "category": "hexlite:patterns",
+  "icon": "minecraft:shulker_box",
+  "sortnum": 12,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:eval",
+      "anchor": "hexlite:eval",
+      "input": "[pattern] | pattern",
+      "output": "many",
+      "text": "hexlite.page.meta.eval.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.meta.eval.2"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:eval/cc",
+      "anchor": "hexlite:eval/cc",
+      "input": "[pattern] | pattern",
+      "output": "many",
+      "text": "hexlite.page.meta.eval/cc.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.meta.eval/cc.2"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:for_each",
+      "anchor": "hexlite:for_each",
+      "input": "list of patterns, list",
+      "output": "list",
+      "text": "hexlite.page.meta.for_each.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.meta.for_each.2"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:halt",
+      "anchor": "hexlite:halt",
+      "text": "hexlite.page.meta.halt.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.meta.halt.2"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:thanatos",
+      "anchor": "hexlite:thanatos",
+      "output": "number",
+      "text": "hexlite.page.meta.thanatos.1"
+    }
+  ]
+}

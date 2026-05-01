@@ -1,0 +1,34 @@
+{
+  "name": "hexlite.entry.mishaps2",
+  "category": "hexlite:casting",
+  "icon": "minecraft:flint_and_steel",
+  "sortnum": 3,
+  "advancement": "hexlite:enlightenment",
+  "entry_color": "54398a",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.mishaps2.1"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.mishaps2.bad_mindflay.title",
+      "text": "hexlite.page.mishaps2.bad_mindflay"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.mishaps2.no_circle.title",
+      "text": "hexlite.page.mishaps2.no_circle"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.mishaps2.no_record.title",
+      "text": "hexlite.page.mishaps2.no_record"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.mishaps2.bad_shepherd.title",
+      "text": "hexlite.page.mishaps2.bad_shepherd"
+    }
+  ]
+}

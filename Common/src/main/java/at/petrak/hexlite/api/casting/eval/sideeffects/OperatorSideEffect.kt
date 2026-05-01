@@ -1,0 +1,72 @@
+package at.petrak.hexlite.api.casting.eval.sideeffects
+
+import at.petrak.hexlite.api.casting.ParticleSpray
+import at.petrak.hexlite.api.casting.RenderedSpell
+import at.petrak.hexlite.api.casting.eval.vm.CastingVM
+import at.petrak.hexlite.api.casting.mishaps.Mishap
+import at.petrak.hexlite.api.mod.HexStatistics
+import at.petrak.hexlite.api.pigment.FrozenPigment
+import at.petrak.hexlite.api.utils.asTranslatedComponent
+import at.petrak.hexlite.common.lib.HexItems
+import net.minecraft.Util
+import net.minecraft.server.level.ServerPlayer
+import net.minecraft.world.item.DyeColor
+import net.minecraft.world.item.ItemStack
+
+/**
+ * Things that happen after a spell is cast.
+ */
+sealed class OperatorSideEffect {
+    /** Return whether to cancel all further [OperatorSideEffect] */
+    abstract fun performEffect(harness: CastingVM)
+
+    data class RequiredEnlightenment(val awardStat: Boolean) : OperatorSideEffect() {
+        override fun performEffect(harness: CastingVM) {
+            harness.env.castingEntity?.sendSystemMessage("hexlite.message.cant_great_spell".asTranslatedComponent)
+        }
+    }
+
+    /** Try to cast a spell  */
+    data class AttemptSpell(
+        val spell: RenderedSpell,
+        val hasCastingSound: Boolean = true,
+        val awardStat: Boolean = true
+    ) :
+        OperatorSideEffect() {
+        override fun performEffect(harness: CastingVM) {
+            this.spell.cast(harness.env, harness.image)?.let { harness.image = it }
+            if (awardStat)
+                (harness.env.castingEntity as? ServerPlayer)?.awardStat(HexStatistics.SPELLS_CAST)
+        }
+    }
+
+    data class ConsumeMedia(val amount: Long) : OperatorSideEffect() {
+        override fun performEffect(harness: CastingVM) {
+            harness.env.extractMedia(this.amount, false)
+        }
+    }
+
+    data class Particles(val spray: ParticleSpray) : OperatorSideEffect() {
+        override fun performEffect(harness: CastingVM) {
+            harness.env.produceParticles(this.spray, harness.env.pigment)
+//            this.spray.sprayParticles(harness.env.world, harness.env.colorizer)
+        }
+    }
+
+    data class DoMishap(val mishap: Mishap, val errorCtx: Mishap.Context) : OperatorSideEffect() {
+        override fun performEffect(harness: CastingVM) {
+            val spray = mishap.particleSpray(harness.env)
+            val color = mishap.accentColor(harness.env, errorCtx)
+            spray.sprayParticles(harness.env.world, color)
+            spray.sprayParticles(
+                harness.env.world,
+                FrozenPigment(
+                    ItemStack(HexItems.DYE_PIGMENTS[DyeColor.RED]!!),
+                    Util.NIL_UUID
+                )
+            )
+
+            harness.image = harness.image.copy(stack = mishap.executeReturnStack(harness.env, errorCtx, harness.image.stack.toMutableList()))
+        }
+    }
+}

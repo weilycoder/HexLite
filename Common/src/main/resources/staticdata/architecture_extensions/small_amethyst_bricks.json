@@ -1,8 +1,8 @@
 {
-	"only_if_present": "hexcasting",
+	"only_if_present": "hexlite",
 	"name": "small_amethyst_brick",
-	"base_block": "hexcasting:small_amethyst_bricks",
-	"textures": "hexcasting:block/small_amethyst_bricks",
+	"base_block": "hexlite:small_amethyst_bricks",
+	"textures": "hexlite:block/small_amethyst_bricks",
 	"recipes": "stonecutting",
 	"map_color": "pink",
 	"types_to_generate": [

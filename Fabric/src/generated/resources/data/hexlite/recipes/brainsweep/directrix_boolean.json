@@ -1,0 +1,21 @@
+{
+  "type": "hexlite:brainsweep",
+  "blockIn": {
+    "type": "block",
+    "block": "hexlite:directrix/empty"
+  },
+  "cost": 1000000,
+  "entityIn": {
+    "type": "villager",
+    "minLevel": 1,
+    "profession": "shepherd"
+  },
+  "result": {
+    "name": "hexlite:directrix/boolean",
+    "properties": {
+      "energized": "false",
+      "facing": "north",
+      "state": "neither"
+    }
+  }
+}

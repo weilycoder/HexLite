@@ -1,0 +1,27 @@
+{
+  "name": "hexlite.entry.brainsweeping",
+  "category": "hexlite:greatwork",
+  "icon": "minecraft:wither_skeleton_skull",
+  "advancement": "hexlite:enlightenment",
+  "sortnum": 0,
+  "entry_color": "54398a",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.brainsweeping.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.brainsweeping.2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.brainsweeping.3"
+    },
+    {
+      "type": "hexlite:brainsweep",
+      "recipe": "hexlite:brainsweep/budding_amethyst",
+      "text": "hexlite.page.brainsweeping.budding_amethyst"
+    }
+  ]
+}

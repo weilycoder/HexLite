@@ -1,0 +1,72 @@
+{
+  "name": "hexlite.entry.numbers",
+  "category": "hexlite:patterns",
+  "icon": "minecraft:stick",
+  "sortnum": 1,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:manual_pattern",
+      "op_id": "hexlite:number",
+      "anchor": "Numbers",
+      "input": "",
+      "output": "number",
+      "text": "hexlite.page.numbers.1",
+      "patterns": [
+        {
+          "startdir": "SOUTH_EAST",
+          "signature": "aqaa"
+        }, {
+          "startdir": "NORTH_EAST",
+          "signature": "dedd",
+          "q": 3
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.numbers.2"
+    },
+    {
+      "type": "hexlite:manual_pattern_nosig",
+      "header": "hexlite.page.numbers.example.10.header",
+      "text": "hexlite.page.numbers.example.10",
+      "patterns": {
+        "startdir": "SOUTH_EAST",
+        "signature": "aqaae"
+      }
+    },
+    {
+      "type": "hexlite:manual_pattern_nosig",
+      "header": "hexlite.page.numbers.example.7.header",
+      "text": "hexlite.page.numbers.example.7",
+      "patterns": {
+        "startdir": "SOUTH_WEST",
+        "signature": "aqaaqww"
+      }
+    },
+    {
+      "type": "hexlite:manual_pattern_nosig",
+      "header": "hexlite.page.numbers.example.-32.header",
+      "text": "hexlite.page.numbers.example.-32",
+      "patterns": {
+        "startdir": "NORTH_EAST",
+        "signature": "deddwqea"
+      }
+    },
+    {
+      "type": "hexlite:manual_pattern_nosig",
+      "header": "hexlite.page.numbers.example.4.5.header",
+      "text": "hexlite.page.numbers.example.4.5",
+      "patterns": {
+        "startdir": "SOUTH_EAST",
+        "signature": "aqaaqdww"
+      }
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.numbers.3"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "hexlite.entry.hexlite",
+  "category": "hexlite:items",
+  "icon": "hexlite:artifact{patterns:[]}",
+  "sortnum": 6,
+  "advancement": "hexlite:root",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.hexlite.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.hexlite.2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.hexlite.3"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.hexlite.4"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.hexlite.5"
+    },
+    {
+      "type": "patchouli:crafting",
+      "anchor": "cypher_trinket",
+      "recipe": "hexlite:cypher",
+      "recipe2": "hexlite:trinket"
+    },
+    {
+      "type": "patchouli:crafting",
+      "anchor": "artifact",
+      "recipe": "hexlite:artifact",
+      "text": "hexlite.page.hexlite.crafting.desc"
+    }
+  ]
+}

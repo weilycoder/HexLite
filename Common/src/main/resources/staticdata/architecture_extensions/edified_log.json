@@ -1,7 +1,7 @@
 {
-	"only_if_present": "hexcasting",
+	"only_if_present": "hexlite",
 	"name": "edified",
-	"base_block": "hexcasting:edified_log",
+	"base_block": "hexlite:edified_log",
 	"textures": "wood_with_log",
 	"recipes": "sawing",
 	"map_color": "purple",

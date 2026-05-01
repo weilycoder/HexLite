@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hexlite:item/cad/3_trinket",
+    "layer1": "hexlite:item/cad/3_trinket_overlay"
+  }
+}

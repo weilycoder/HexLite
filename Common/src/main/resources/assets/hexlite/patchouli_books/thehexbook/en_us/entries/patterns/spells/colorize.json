@@ -1,0 +1,18 @@
+{
+  "name": "hexlite.action.hexlite:colorize",
+  "category": "hexlite:patterns/spells",
+  "icon": "hexlite:pride_colorizer_gay",
+  "sortnum": 5,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:colorize",
+      "anchor": "hexlite:colorize",
+      "input": "",
+      "output": "",
+      "text": "hexlite.page.colorize"
+    }
+  ]
+}

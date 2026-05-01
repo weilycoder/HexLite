@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "hexlite:block/circle/bottom",
+    "east": "hexlite:block/circle/impetus/redstone/left_dim",
+    "north": "hexlite:block/circle/impetus/redstone/front_dim",
+    "particle": "hexlite:block/slate",
+    "south": "hexlite:block/circle/impetus/back_dim",
+    "up": "hexlite:block/circle/impetus/redstone/top_dim",
+    "west": "hexlite:block/circle/impetus/redstone/right_dim"
+  }
+}

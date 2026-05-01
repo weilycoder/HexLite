@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "hexlite:slate_bricks_small"
+    },
+    {
+      "item": "hexlite:amethyst_bricks_small"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "hexlite:slate_amethyst_bricks_small"
+  }
+}

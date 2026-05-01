@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "hexlite:impetus/look",
+    "hexlite:impetus/rightclick",
+    "hexlite:impetus/redstone"
+  ]
+}

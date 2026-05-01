@@ -1,0 +1,26 @@
+{
+  "name": "hexlite.entry.slate",
+  "category": "hexlite:items",
+  "icon": "hexlite:slate",
+  "sortnum": 5,
+  "advancement": "hexlite:root",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.slate.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.slate.2"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:slate",
+      "text": "hexlite.page.slate.crafting.desc"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.slate.3"
+    }
+  ]
+}

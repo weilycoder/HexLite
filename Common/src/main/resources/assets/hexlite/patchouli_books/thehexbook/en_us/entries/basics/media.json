@@ -1,0 +1,21 @@
+{
+  "name": "hexlite.entry.media",
+  "icon": "hexlite:amethyst_dust",
+  "category": "hexlite:basics",
+  "priority": true,
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.media.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.media.2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.media.3"
+    }
+  ]
+}

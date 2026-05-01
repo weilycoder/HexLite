@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "A": {
+      "item": "hexlite:charged_amethyst"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    },
+    "O": {
+      "item": "minecraft:observer"
+    },
+    "S": {
+      "item": "hexlite:slate_block"
+    }
+  },
+  "pattern": [
+    "CSS",
+    "OAO",
+    "SSC"
+  ],
+  "result": {
+    "item": "hexlite:directrix/empty"
+  },
+  "show_notification": true
+}

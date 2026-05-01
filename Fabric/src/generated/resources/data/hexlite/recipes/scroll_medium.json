@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "hexlite:amethyst_dust"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "  A",
+    "PP ",
+    "PP "
+  ],
+  "result": {
+    "item": "hexlite:scroll_medium"
+  },
+  "show_notification": true
+}

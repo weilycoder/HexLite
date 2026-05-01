@@ -1,0 +1,115 @@
+{
+  "name": "hexlite.entry.logic",
+  "category": "hexlite:patterns",
+  "icon": "minecraft:comparator",
+  "sortnum": 5,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:bool_coerce",
+      "anchor": "hexlite:bool_coerce",
+      "input": "any",
+      "output": "bool",
+      "text": "hexlite.page.logic.bool_coerce"
+    },
+    {
+      "type": "hexlite:pattern",
+      "header": "hexlite.action.book.hexlite:bool_to_number",
+      "op_id": "hexlite:abs",
+      "anchor": "hexlite:abs",
+      "input": "bool",
+      "output": "number",
+      "text": "hexlite.page.logic.bool_to_number"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:not",
+      "anchor": "hexlite:not",
+      "input": "bool",
+      "output": "bool",
+      "text": "hexlite.page.logic.not"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:or",
+      "anchor": "hexlite:or",
+      "input": "bool, bool",
+      "output": "bool",
+      "text": "hexlite.page.logic.or"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:and",
+      "anchor": "hexlite:and",
+      "input": "bool, bool",
+      "output": "bool",
+      "text": "hexlite.page.logic.and"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:xor",
+      "anchor": "hexlite:xor",
+      "input": "bool, bool",
+      "output": "bool",
+      "text": "hexlite.page.logic.xor"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:if",
+      "anchor": "hexlite:if",
+      "input": "bool, any, any",
+      "output": "any",
+      "text": "hexlite.page.logic.if"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:equals",
+      "anchor": "hexlite:equals",
+      "input": "any, any",
+      "output": "bool",
+      "text": "hexlite.page.logic.equals"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:not_equals",
+      "anchor": "hexlite:not_equals",
+      "input": "any, any",
+      "output": "bool",
+      "text": "hexlite.page.logic.not_equals"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:greater",
+      "anchor": "hexlite:greater",
+      "input": "number, number",
+      "output": "bool",
+      "text": "hexlite.page.logic.greater"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:less",
+      "anchor": "hexlite:less",
+      "input": "number, number",
+      "output": "bool",
+      "text": "hexlite.page.logic.less"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:greater_eq",
+      "anchor": "hexlite:greater_eq",
+      "input": "number, number",
+      "output": "bool",
+      "text": "hexlite.page.logic.greater_eq"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:less_eq",
+      "anchor": "hexlite:less_eq",
+      "input": "number, number",
+      "output": "bool",
+      "text": "hexlite.page.logic.less_eq"
+    }
+  ]
+}

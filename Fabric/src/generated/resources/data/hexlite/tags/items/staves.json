@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "hexlite:staff/edified",
+    "hexlite:staff/oak",
+    "hexlite:staff/spruce",
+    "hexlite:staff/birch",
+    "hexlite:staff/jungle",
+    "hexlite:staff/acacia",
+    "hexlite:staff/dark_oak",
+    "hexlite:staff/crimson",
+    "hexlite:staff/warped",
+    "hexlite:staff/mangrove",
+    "hexlite:staff/cherry",
+    "hexlite:staff/bamboo",
+    "hexlite:staff/quenched",
+    "hexlite:staff/mindsplice"
+  ]
+}

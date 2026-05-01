@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "A": {
+      "item": "hexlite:charged_amethyst"
+    },
+    "B": {
+      "item": "minecraft:iron_bars"
+    },
+    "P": {
+      "item": "minecraft:purpur_block"
+    },
+    "S": {
+      "item": "hexlite:slate_block"
+    }
+  },
+  "pattern": [
+    "PSS",
+    "BAB",
+    "SSP"
+  ],
+  "result": {
+    "item": "hexlite:impetus/empty"
+  },
+  "show_notification": true
+}

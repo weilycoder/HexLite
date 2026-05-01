@@ -1,0 +1,16 @@
+{
+  "overrides": [
+    {
+      "model": "hexlite:item/scroll_pristine_large",
+      "predicate": {
+        "hexlite:ancient": 0.0
+      }
+    },
+    {
+      "model": "hexlite:item/scroll_ancient_large",
+      "predicate": {
+        "hexlite:ancient": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "name": "hexlite.entry.entities",
+  "category": "hexlite:patterns",
+  "icon": "minecraft:pig_spawn_egg",
+  "sortnum": 6,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:get_entity",
+      "anchor": "hexlite:get_entity",
+      "input": "vector",
+      "output": "entity or null",
+      "text": "hexlite.page.entities.get_entity"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:get_entity/animal",
+      "anchor": "hexlite:get_entity/animal",
+      "input": "vector",
+      "output": "entity or null",
+      "text": "hexlite.page.entities.get_entity/animal"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:get_entity/monster",
+      "anchor": "hexlite:get_entity/monster",
+      "input": "vector",
+      "output": "entity or null",
+      "text": "hexlite.page.entities.get_entity/monster"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:get_entity/item",
+      "anchor": "hexlite:get_entity/item",
+      "input": "vector",
+      "output": "entity or null",
+      "text": "hexlite.page.entities.get_entity/item"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:get_entity/player",
+      "anchor": "hexlite:get_entity/player",
+      "input": "vector",
+      "output": "entity or null",
+      "text": "hexlite.page.entities.get_entity/player"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:get_entity/living",
+      "anchor": "hexlite:get_entity/living",
+      "input": "vector",
+      "output": "entity or null",
+      "text": "hexlite.page.entities.get_entity/living"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:zone_entity/animal",
+      "anchor": "hexlite:zone_entity/animal",
+      "input": "vector, number",
+      "output": "list",
+      "text": "hexlite.page.entities.zone_entity/animal"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:zone_entity/not_animal",
+      "anchor": "hexlite:zone_entity/not_animal",
+      "input": "vector, number",
+      "output": "list",
+      "text": "hexlite.page.entities.zone_entity/not_animal"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:zone_entity/monster",
+      "anchor": "hexlite:zone_entity/monster",
+      "input": "vector, number",
+      "output": "list",
+      "text": "hexlite.page.entities.zone_entity/monster"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:zone_entity/not_monster",
+      "anchor": "hexlite:zone_entity/not_monster",
+      "input": "vector, number",
+      "output": "list",
+      "text": "hexlite.page.entities.zone_entity/not_monster"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:zone_entity/item",
+      "anchor": "hexlite:zone_entity/item",
+      "input": "vector, number",
+      "output": "list",
+      "text": "hexlite.page.entities.zone_entity/item"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:zone_entity/not_item",
+      "anchor": "hexlite:zone_entity/not_item",
+      "input": "vector, number",
+      "output": "list",
+      "text": "hexlite.page.entities.zone_entity/not_item"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:zone_entity/player",
+      "anchor": "hexlite:zone_entity/player",
+      "input": "vector, number",
+      "output": "list",
+      "text": "hexlite.page.entities.zone_entity/player"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:zone_entity/not_player",
+      "anchor": "hexlite:zone_entity/not_player",
+      "input": "vector, number",
+      "output": "list",
+      "text": "hexlite.page.entities.zone_entity/not_player"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:zone_entity/living",
+      "anchor": "hexlite:zone_entity/living",
+      "input": "vector, number",
+      "output": "list",
+      "text": "hexlite.page.entities.zone_entity/living"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:zone_entity/not_living",
+      "anchor": "hexlite:zone_entity/not_living",
+      "input": "vector, number",
+      "output": "list",
+      "text": "hexlite.page.entities.zone_entity/not_living"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:zone_entity",
+      "anchor": "hexlite:zone_entity",
+      "input": "vector, number",
+      "output": "list",
+      "text": "hexlite.page.entities.zone_entity"
+    }
+  ]
+}

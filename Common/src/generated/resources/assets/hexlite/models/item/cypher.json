@@ -1,0 +1,120 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "hexlite:item/cypher",
+      "predicate": {
+        "hexlite:has_patterns": -0.01,
+        "hexlite:variant": 0.0
+      }
+    },
+    {
+      "model": "hexlite:item/cypher_0_filled",
+      "predicate": {
+        "hexlite:has_patterns": 0.99,
+        "hexlite:variant": 0.0
+      }
+    },
+    {
+      "model": "hexlite:item/cypher_1",
+      "predicate": {
+        "hexlite:has_patterns": -0.01,
+        "hexlite:variant": 1.0
+      }
+    },
+    {
+      "model": "hexlite:item/cypher_1_filled",
+      "predicate": {
+        "hexlite:has_patterns": 0.99,
+        "hexlite:variant": 1.0
+      }
+    },
+    {
+      "model": "hexlite:item/cypher_2",
+      "predicate": {
+        "hexlite:has_patterns": -0.01,
+        "hexlite:variant": 2.0
+      }
+    },
+    {
+      "model": "hexlite:item/cypher_2_filled",
+      "predicate": {
+        "hexlite:has_patterns": 0.99,
+        "hexlite:variant": 2.0
+      }
+    },
+    {
+      "model": "hexlite:item/cypher_3",
+      "predicate": {
+        "hexlite:has_patterns": -0.01,
+        "hexlite:variant": 3.0
+      }
+    },
+    {
+      "model": "hexlite:item/cypher_3_filled",
+      "predicate": {
+        "hexlite:has_patterns": 0.99,
+        "hexlite:variant": 3.0
+      }
+    },
+    {
+      "model": "hexlite:item/cypher_4",
+      "predicate": {
+        "hexlite:has_patterns": -0.01,
+        "hexlite:variant": 4.0
+      }
+    },
+    {
+      "model": "hexlite:item/cypher_4_filled",
+      "predicate": {
+        "hexlite:has_patterns": 0.99,
+        "hexlite:variant": 4.0
+      }
+    },
+    {
+      "model": "hexlite:item/cypher_5",
+      "predicate": {
+        "hexlite:has_patterns": -0.01,
+        "hexlite:variant": 5.0
+      }
+    },
+    {
+      "model": "hexlite:item/cypher_5_filled",
+      "predicate": {
+        "hexlite:has_patterns": 0.99,
+        "hexlite:variant": 5.0
+      }
+    },
+    {
+      "model": "hexlite:item/cypher_6",
+      "predicate": {
+        "hexlite:has_patterns": -0.01,
+        "hexlite:variant": 6.0
+      }
+    },
+    {
+      "model": "hexlite:item/cypher_6_filled",
+      "predicate": {
+        "hexlite:has_patterns": 0.99,
+        "hexlite:variant": 6.0
+      }
+    },
+    {
+      "model": "hexlite:item/cypher_7",
+      "predicate": {
+        "hexlite:has_patterns": -0.01,
+        "hexlite:variant": 7.0
+      }
+    },
+    {
+      "model": "hexlite:item/cypher_7_filled",
+      "predicate": {
+        "hexlite:has_patterns": 0.99,
+        "hexlite:variant": 7.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "hexlite:item/cad/0_cypher"
+  }
+}

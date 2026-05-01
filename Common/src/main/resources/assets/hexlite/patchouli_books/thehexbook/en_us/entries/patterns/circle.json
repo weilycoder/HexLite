@@ -1,0 +1,46 @@
+{
+  "name": "hexlite.entry.circle_patterns",
+  "category": "hexlite:patterns",
+  "icon": "hexlite:impetus/empty",
+  "sortnum": 13,
+  "advancement": "hexlite:enlightenment",
+  "entry_color": "54398a",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.circle_patterns.disclaimer"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:circle/impetus_pos",
+      "anchor": "hexlite:circle/impetus_pos",
+      "input": "",
+      "output": "vector",
+      "text": "hexlite.page.circle_patterns.circle/impetus_pos"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:circle/impetus_dir",
+      "anchor": "hexlite:circle/impetus_dir",
+      "input": "",
+      "output": "vector",
+      "text": "hexlite.page.circle_patterns.circle/impetus_dir"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:circle/bounds/min",
+      "anchor": "hexlite:circle/bounds/min",
+      "input": "",
+      "output": "vector",
+      "text": "hexlite.page.circle_patterns.circle/bounds/min"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:circle/bounds/max",
+      "anchor": "hexlite:circle/bounds/max",
+      "input": "",
+      "output": "vector",
+      "text": "hexlite.page.circle_patterns.circle/bounds/max"
+    }
+  ]
+}

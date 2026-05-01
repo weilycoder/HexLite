@@ -1,0 +1,37 @@
+{
+  "name": "hexlite.entry.weather_manip",
+  "category": "hexlite:patterns/great_spells",
+  "icon": "minecraft:textures/mob_effect/levitation.png",
+  "sortnum": 1,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:lightning",
+      "anchor": "hexlite:lightning",
+      "input": "vector",
+      "output": "",
+      "hex_size": 6,
+      "text": "hexlite.page.weather_manip.lightning"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:summon_rain",
+      "anchor": "hexlite:summon_rain",
+      "input": "",
+      "output": "",
+      "hex_size": 6,
+      "text": "hexlite.page.weather_manip.summon_rain"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:dispel_rain",
+      "anchor": "hexlite:dispel_rain",
+      "input": "",
+      "output": "",
+      "hex_size": 6,
+      "text": "hexlite.page.weather_manip.dispel_rain"
+    }
+  ]
+}

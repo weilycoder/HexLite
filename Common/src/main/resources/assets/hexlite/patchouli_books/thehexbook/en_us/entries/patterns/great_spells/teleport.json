@@ -1,0 +1,23 @@
+{
+  "name": "hexlite.action.hexlite:teleport/great",
+  "category": "hexlite:patterns/great_spells",
+  "icon": "minecraft:ender_pearl",
+  "sortnum": 3,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:teleport/great",
+      "anchor": "hexlite:teleport/great",
+      "input": "entity, vector",
+      "output": "",
+      "hex_size": 8,
+      "text": "hexlite.page.teleport/great.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.teleport/great.2"
+    }
+  ]
+}

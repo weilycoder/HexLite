@@ -1,0 +1,22 @@
+{
+  "name": "hexlite.action.hexlite:sentinel/create/great",
+  "category": "hexlite:patterns/great_spells",
+  "icon": "minecraft:beacon",
+  "sortnum": 5,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:sentinel/create/great",
+      "anchor": "hexlite:sentinel/create/great",
+      "text": "hexlite.page.greater_sentinel.1",
+      "input": "vector",
+      "output": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.greater_sentinel.2"
+    }
+  ]
+}

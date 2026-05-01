@@ -1,0 +1,22 @@
+{
+  "name": "hexlite.action.hexlite:flight",
+  "category": "hexlite:patterns/great_spells",
+  "icon": "minecraft:elytra",
+  "sortnum": 2,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:flight",
+      "anchor": "hexlite:flight",
+      "input": "player",
+      "output": "",
+      "text": "hexlite.page.altiora.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.altiora.2"
+    }
+  ]
+}

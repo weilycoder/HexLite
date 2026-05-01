@@ -1,0 +1,25 @@
+{
+  "name": "hexlite.entry.couldnt_cast",
+  "category": "hexlite:basics",
+  "icon": "minecraft:textures/mob_effect/nausea.png",
+  "sortnum": 0,
+  "advancement": "hexlite:y_u_no_cast_angy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.couldnt_cast.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.couldnt_cast.2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.couldnt_cast.3"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.couldnt_cast.4"
+    }
+  ]
+}

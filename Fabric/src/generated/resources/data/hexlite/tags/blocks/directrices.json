@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "hexlite:directrix/redstone",
+    "hexlite:directrix/boolean"
+  ]
+}

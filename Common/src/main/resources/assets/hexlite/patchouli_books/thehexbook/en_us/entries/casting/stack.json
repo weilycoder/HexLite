@@ -1,0 +1,25 @@
+{
+  "name": "hexlite.entry.stack",
+  "category": "hexlite:casting",
+  "icon": "minecraft:piston",
+  "sortnum": 0,
+  "advancement": "hexlite:root",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.stack.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.stack.2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.stack.3"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.stack.4"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "hexlite:item/artifact",
+      "predicate": {
+        "hexlite:has_patterns": -0.01,
+        "hexlite:variant": 0.0
+      }
+    },
+    {
+      "model": "hexlite:item/artifact_0_filled",
+      "predicate": {
+        "hexlite:has_patterns": 0.99,
+        "hexlite:variant": 0.0
+      }
+    },
+    {
+      "model": "hexlite:item/artifact_1",
+      "predicate": {
+        "hexlite:has_patterns": -0.01,
+        "hexlite:variant": 1.0
+      }
+    },
+    {
+      "model": "hexlite:item/artifact_1_filled",
+      "predicate": {
+        "hexlite:has_patterns": 0.99,
+        "hexlite:variant": 1.0
+      }
+    },
+    {
+      "model": "hexlite:item/artifact_2",
+      "predicate": {
+        "hexlite:has_patterns": -0.01,
+        "hexlite:variant": 2.0
+      }
+    },
+    {
+      "model": "hexlite:item/artifact_2_filled",
+      "predicate": {
+        "hexlite:has_patterns": 0.99,
+        "hexlite:variant": 2.0
+      }
+    },
+    {
+      "model": "hexlite:item/artifact_3",
+      "predicate": {
+        "hexlite:has_patterns": -0.01,
+        "hexlite:variant": 3.0
+      }
+    },
+    {
+      "model": "hexlite:item/artifact_3_filled",
+      "predicate": {
+        "hexlite:has_patterns": 0.99,
+        "hexlite:variant": 3.0
+      }
+    },
+    {
+      "model": "hexlite:item/artifact_4",
+      "predicate": {
+        "hexlite:has_patterns": -0.01,
+        "hexlite:variant": 4.0
+      }
+    },
+    {
+      "model": "hexlite:item/artifact_4_filled",
+      "predicate": {
+        "hexlite:has_patterns": 0.99,
+        "hexlite:variant": 4.0
+      }
+    },
+    {
+      "model": "hexlite:item/artifact_5",
+      "predicate": {
+        "hexlite:has_patterns": -0.01,
+        "hexlite:variant": 5.0
+      }
+    },
+    {
+      "model": "hexlite:item/artifact_5_filled",
+      "predicate": {
+        "hexlite:has_patterns": 0.99,
+        "hexlite:variant": 5.0
+      }
+    },
+    {
+      "model": "hexlite:item/artifact_6",
+      "predicate": {
+        "hexlite:has_patterns": -0.01,
+        "hexlite:variant": 6.0
+      }
+    },
+    {
+      "model": "hexlite:item/artifact_6_filled",
+      "predicate": {
+        "hexlite:has_patterns": 0.99,
+        "hexlite:variant": 6.0
+      }
+    },
+    {
+      "model": "hexlite:item/artifact_7",
+      "predicate": {
+        "hexlite:has_patterns": -0.01,
+        "hexlite:variant": 7.0
+      }
+    },
+    {
+      "model": "hexlite:item/artifact_7_filled",
+      "predicate": {
+        "hexlite:has_patterns": 0.99,
+        "hexlite:variant": 7.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "hexlite:item/cad/0_artifact"
+  }
+}

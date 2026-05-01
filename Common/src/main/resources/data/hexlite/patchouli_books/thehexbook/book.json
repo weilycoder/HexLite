@@ -1,0 +1,26 @@
+{
+  "name": "item.hexlite.book",
+  "landing_text": "hexlite.landing",
+  "version": 1,
+  "show_progress": false,
+  "nameplate_color": "00072b",
+  "creative_tab": "hexlite:hexlite",
+  "model": "hexlite:patchouli_book",
+  "book_texture": "hexlite:textures/gui/patchi_book.png",
+  "filler_texture": "hexlite:textures/gui/patchi_filler.png",
+  "i18n": true,
+  "macros": {
+    "$(thing)": "$(#8d6acc)",
+    "$(action)": "$(#fc77be)",
+    "$(media)": "$(#74b3f2)",
+    "$(hex)": "$(#b38ef3)",
+    "_Media": "$(#74b3f2)Media/$",
+    "_media": "$(#74b3f2)media/$",
+    "_Hexcasters": "$(#b38ef3)Hexcasters/$",
+    "_Hexcaster": "$(#b38ef3)Hexcaster/$",
+    "_hexlite": "$(#b38ef3)hexlite/$",
+    "_Hexes": "$(#b38ef3)Hexes/$",
+    "_Hex": "$(#b38ef3)Hex/$"
+  },
+  "use_resource_pack": true
+}

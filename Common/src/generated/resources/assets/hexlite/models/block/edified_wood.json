@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "hexlite:block/edified_log",
+    "side": "hexlite:block/edified_log"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "hexlite.entry.hexlite_spell",
+  "category": "hexlite:patterns/spells",
+  "icon": "hexlite:artifact{patterns:[]}",
+  "sortnum": 3,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.hexlite_spell.basics"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:craft/cypher",
+      "anchor": "hexlite:craft/cypher",
+      "input": "entity, [pattern]",
+      "output": "",
+      "text": "hexlite.page.hexlite_spell.craft/cypher"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:craft/trinket",
+      "anchor": "hexlite:craft/trinket",
+      "input": "entity, [pattern]",
+      "output": "",
+      "text": "hexlite.page.hexlite_spell.craft/trinket",
+      "hex_size": 8
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:craft/artifact",
+      "anchor": "hexlite:craft/artifact",
+      "input": "entity, [pattern]",
+      "output": "",
+      "text": "hexlite.page.hexlite_spell.craft/artifact",
+      "hex_size": 5
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:recharge",
+      "anchor": "hexlite:recharge",
+      "input": "entity",
+      "output": "",
+      "text": "hexlite.page.hexlite_spell.recharge.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.hexlite_spell.recharge.2"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:erase",
+      "anchor": "hexlite:erase",
+      "input": "",
+      "output": "",
+      "text": "hexlite.page.hexlite_spell.erase.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.hexlite_spell.erase.2"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "hexlite.entry.lens",
+  "icon": "hexlite:lens",
+  "category": "hexlite:items",
+  "advancement": "hexlite:root",
+  "priority": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.lens.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.lens.2"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:lens",
+      "text": "hexlite.page.lens.crafting.desc"
+    }
+  ]
+}

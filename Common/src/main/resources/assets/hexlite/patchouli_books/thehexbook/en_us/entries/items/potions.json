@@ -1,0 +1,21 @@
+{
+    "name": "hexlite.entry.potions",
+    "category": "hexlite:items",
+    "icon": "minecraft:potion{Potion:\"hexlite:enlarge_grid\"}",
+    "sortnum": 8,
+    "advancement": "hexlite:root",
+    "read_by_default": true,
+    "pages": [
+      {
+        "type": "patchouli:text",
+        "text": "hexlite.page.potions.1"
+      },
+      {
+        "type": "patchouli:spotlight",
+        "title": "hexlite.page.potions.effects.header",
+        "text": "hexlite.page.potions.2",
+        "item": "minecraft:potion{Potion:\"hexlite:enlarge_grid\"},minecraft:potion{Potion:\"hexlite:enlarge_grid_long\"},minecraft:potion{Potion:\"hexlite:enlarge_grid_strong\"},minecraft:potion{Potion:\"hexlite:shrink_grid\"},minecraft:potion{Potion:\"hexlite:shrink_grid_long\"},minecraft:potion{Potion:\"hexlite:shrink_grid_strong\"}"
+      }
+    ]
+  }
+  

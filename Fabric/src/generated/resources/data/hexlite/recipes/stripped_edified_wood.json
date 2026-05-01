@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "W": {
+      "item": "hexlite:stripped_edified_log"
+    }
+  },
+  "pattern": [
+    "WW",
+    "WW"
+  ],
+  "result": {
+    "count": 3,
+    "item": "hexlite:stripped_edified_wood"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,22 @@
+{
+  "name": "hexlite.entry.spellbook",
+  "category": "hexlite:items",
+  "icon": "hexlite:spellbook",
+  "sortnum": 3,
+  "advancement": "hexlite:root",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.spellbook.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.spellbook.2"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:spellbook",
+      "text": "hexlite.page.spellbook.crafting.desc"
+    }
+  ]
+}

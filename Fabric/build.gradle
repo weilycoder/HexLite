@@ -28,7 +28,7 @@ pkSubproj {
 }
 
 loom {
-    mixin.defaultRefmapName = "hexcasting.mixins.refmap.json"
+    mixin.defaultRefmapName = "hexlite.mixins.refmap.json"
 
     accessWidenerPath = file("src/main/resources/fabricasting.accesswidener")
 

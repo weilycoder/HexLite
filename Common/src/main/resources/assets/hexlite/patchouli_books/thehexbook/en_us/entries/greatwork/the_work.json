@@ -1,0 +1,19 @@
+{
+  "name": "hexlite.entry.the_work",
+  "category": "hexlite:greatwork",
+  "icon": "minecraft:nether_star",
+  "priority": true,
+  "sortnum": 0,
+  "advancement": "hexlite:enlightenment",
+  "entry_color": "54398a",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.the_work.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.the_work.2"
+    }
+  ]
+}

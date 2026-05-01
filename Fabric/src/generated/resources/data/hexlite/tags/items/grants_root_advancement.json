@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "hexlite:amethyst_dust",
+    "minecraft:amethyst_shard",
+    "hexlite:charged_amethyst",
+    "hexlite:creative_unlocker"
+  ]
+}

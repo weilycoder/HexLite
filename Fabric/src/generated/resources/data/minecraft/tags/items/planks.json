@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "hexcasting:edified_planks",
-    "hexcasting:edified_panel",
-    "hexcasting:edified_tile"
+    "hexlite:edified_planks",
+    "hexlite:edified_panel",
+    "hexlite:edified_tile"
   ]
 }

@@ -1,0 +1,35 @@
+{
+  "name": "hexlite.entry.amethyst",
+  "icon": "minecraft:amethyst_shard",
+  "category": "hexlite:items",
+  "priority": true,
+  "sortnum": 0,
+  "advancement": "hexlite:root",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "hexlite:amethyst_dust",
+      "anchor": "dust",
+      "link_recipe": true,
+      "text": "hexlite.page.amethyst.dust"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:amethyst_shard",
+      "anchor": "shard",
+      "link_recipe": true,
+      "text": "hexlite.page.amethyst.shard"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "hexlite:charged_amethyst",
+      "anchor": "charged",
+      "link_recipe": true,
+      "text": "hexlite.page.amethyst.crystal"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.amethyst.lore"
+    }
+  ]
+}

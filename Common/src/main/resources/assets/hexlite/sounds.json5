@@ -1,0 +1,167 @@
+{
+  "casting.pattern.start": {
+    subtitle: "hexlite.subtitles.casting.pattern.start",
+    sounds: [
+      {
+        name: "hexlite:add_segment",
+        volume: 1.0,
+        pitch: 0.8
+      }
+    ]
+  },
+  "casting.pattern.add_segment": {
+    subtitle: "hexlite.subtitles.casting.pattern.add_segment",
+    sounds: [
+      {
+        name: "hexlite:add_segment",
+        volume: 0.8,
+        pitch: 1.0
+      }
+    ]
+  },
+  
+  "casting.ambiance": {
+    subtitle: "hexlite.subtitles.ambiance",
+    sounds: [
+      "hexlite:casting_ambiance"
+    ]
+  },
+  
+  "casting.cast.normal": {
+    subtitle: "hexlite.subtitles.casting.cast.normal",
+    sounds: [
+      "hexlite:cast/normal"
+    ]
+  },
+  "casting.cast.spell": {
+    subtitle: "hexlite.subtitles.casting.cast.spell",
+    sounds: [
+      "hexlite:cast/spell"
+    ]
+  },
+  "casting.cast.hermes": {
+    subtitle: "hexlite.subtitles.casting.cast.hermes",
+    sounds: [
+      "hexlite:cast/hermes"
+    ]
+  },
+  "casting.cast.thoth": {
+    subtitle: "hexlite.subtitles.casting.cast.thoth",
+    sounds: [
+      "hexlite:cast/thoth"
+    ],
+  },
+  "casting.cast.fail": {
+    subtitle: "hexlite.subtitles.casting.cast.fail",
+    sounds: [
+      "hexlite:cast/fail"
+    ],
+  },
+  
+  abacus: {
+    "subtitle": "hexlite.subtitles.abacus",
+    "sounds": [
+      "hexlite:abacus1",
+      "hexlite:abacus2",
+      "hexlite:abacus3"
+    ]
+  },
+  "abacus.shake": {
+    "subtitle": "hexlite.subtitles.abacus.shake",
+    "sounds": [
+      "hexlite:abacus_shake"
+    ]
+  },
+  
+  "staff.reset": {
+    "subtitle": "hexlite.subtitles.staff.reset",
+    "sounds": [
+      {
+        "name": "hexlite:cast/fail",
+        "pitch": 0.8
+      }
+    ]
+  },
+  
+  "spellcircle.find_block": {
+    "sounds": [
+      {
+        "name": "hexlite:cast/normal",
+        "pitch": 0.8
+      }
+    ],
+    "subtitle": "hexlite.subtitles.spellcircle.add_pattern"
+  },
+  "spellcircle.fail": {
+    "sounds": [
+      {
+        "name": "hexlite:cast/fail",
+        "pitch": 0.8
+      }
+    ],
+    "subtitle": "hexlite.subtitles.spellcircle.fail"
+  },
+  
+  "scroll.dust": {
+    "sounds": [
+      "minecraft:dig/sand1",
+      "minecraft:dig/sand2",
+      "minecraft:dig/sand3",
+      "minecraft:dig/sand4"
+    ],
+    "subtitle": "hexlite.subtitles.scroll.dust"
+  },
+  "scroll.scribble": {
+    "sounds": [
+      "minecraft:item/book/open_flip1",
+      "minecraft:item/book/open_flip2",
+      "minecraft:item/book/open_flip3"
+    ],
+    "subtitle": "hexlite.subtitles.scroll.scribble"
+  },
+  
+  "impetus.fletcher.tick": {
+    "sounds": [
+      "minecraft:note/hat"
+    ],
+    "subtitle": "hexlite.subtitles.impetus.fletcher.tick"
+  },
+  "impetus.redstone.register": {
+    "sounds": [
+      "minecraft:random/orb"
+    ],
+    "subtitle": "hexlite.subtitles.impetus.redstone.register"
+  },
+  "impetus.redstone.clear": {
+    "sounds": [
+      "hexlite:cast/fail"
+    ],
+    "subtitle": "hexlite.subtitles.impetus.redstone.clear"
+  },
+  
+  "lore_fragment.read": {
+    "sounds": [
+      "block/enchantment_table/enchant1",
+      "block/enchantment_table/enchant2",
+      "block/enchantment_table/enchant3"
+    ],
+    "subtitle": "hexlite.subtitles.lore_fragment.read"
+  },
+  
+  // this is for altiora
+  "flight.ambience": {
+    "sounds": [
+      "block/amethyst/shimmer"
+    ],
+    "subtitle": "hexlite.subtitles.flight.ambience"
+  },
+  "flight.finish": {
+    "sounds": [
+      "block/amethyst/break1",
+      "block/amethyst/break2",
+      "block/amethyst/break3",
+      "block/amethyst/break4"
+    ],
+    "subtitle": "hexlite.subtitles.flight.finish"
+  }
+}

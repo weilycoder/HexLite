@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "hexlite:block/deco/slate_amethyst_bricks_1"
+  }
+}

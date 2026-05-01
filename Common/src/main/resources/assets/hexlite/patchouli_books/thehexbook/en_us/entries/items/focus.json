@@ -1,0 +1,26 @@
+{
+  "name": "hexlite.entry.focus",
+  "icon": "hexlite:focus",
+  "category": "hexlite:items",
+  "sortnum": 1,
+  "advancement": "hexlite:root",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.focus.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.focus.2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.focus.3"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:focus",
+      "text": "hexlite.page.focus.crafting.desc"
+    }
+  ]
+}

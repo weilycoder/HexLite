@@ -8,7 +8,7 @@ build-backend = "hatchling.build"
 # project metadata
 
 [project]
-name = "hexdoc-hexcasting"
+name = "hexdoc-hexlite"
 description = "Hex Casting web book."
 authors = [
     { name="object-Object" },
@@ -21,7 +21,7 @@ requires-python = ">=3.11"
 dynamic = ["version", "dependencies", "optional-dependencies"]
 
 [project.urls]
-Homepage = "https://hexcasting.hexxy.media/"
+Homepage = "https://hexlite.hexxy.media/"
 Source = "https://github.com/FallingColors/HexMod/"
 
 # Gradle version/deps
@@ -29,7 +29,7 @@ Source = "https://github.com/FallingColors/HexMod/"
 [tool.hatch.version]
 scheme = "gradle"
 source = "gradle-properties"
-py-path = "doc/src/hexdoc_hexcasting/__version__.py"
+py-path = "doc/src/hexdoc_hexlite/__version__.py"
 
 [tool.hatch.metadata.hooks.gradle-properties]
 dependencies = [
@@ -46,25 +46,25 @@ dev = [
 
 [tool.hatch.build]
 artifacts = [
-    "/doc/src/hexdoc_hexcasting/_export/generated",
-    "/doc/src/hexdoc_hexcasting/__gradle_version__.py",
+    "/doc/src/hexdoc_hexlite/_export/generated",
+    "/doc/src/hexdoc_hexlite/__gradle_version__.py",
 ]
 
 [tool.hatch.build.targets.sdist]
 only-include = [
-    "doc/src/hexdoc_hexcasting",
+    "doc/src/hexdoc_hexlite",
     "gradle.properties",
 ]
 
 [tool.hatch.build.targets.wheel]
 packages = [
-    "doc/src/hexdoc_hexcasting",
+    "doc/src/hexdoc_hexlite",
 ]
 
 # hexdoc
 
 [project.entry-points.hexdoc]
-hexcasting = "hexdoc_hexcasting._hooks:HexcastingPlugin"
+hexlite = "hexdoc_hexlite._hooks:hexlitePlugin"
 
 # Pytest
 
@@ -80,7 +80,7 @@ include_namespace_packages = true
 [tool.isort]
 profile = "black"
 combine_as_imports = true
-known_first_party = ["hexdoc_hexcasting"]
+known_first_party = ["hexdoc_hexlite"]
 
 [tool.pyright]
 pythonVersion = "3.11"

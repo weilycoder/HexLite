@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "hexlite:block/circle/bottom",
+    "east": "hexlite:block/circle/directrix/boolean/left_true",
+    "north": "hexlite:block/circle/directrix/boolean/front_not_false",
+    "particle": "hexlite:block/slate",
+    "south": "hexlite:block/circle/directrix/boolean/back_dim_true",
+    "up": "hexlite:block/circle/directrix/boolean/top_true",
+    "west": "hexlite:block/circle/directrix/boolean/right_true"
+  }
+}

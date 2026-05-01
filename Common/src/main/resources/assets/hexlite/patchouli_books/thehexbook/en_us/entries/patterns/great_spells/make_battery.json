@@ -1,0 +1,22 @@
+{
+  "name": "hexlite.action.hexlite:craft/battery",
+  "category": "hexlite:patterns/great_spells",
+  "icon": "hexlite:battery{media:10000,max_media:10000}",
+  "sortnum": 6,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:craft/battery",
+      "anchor": "hexlite:craft/battery",
+      "input": "entity",
+      "output": "",
+      "text": "hexlite.page.make_battery.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.make_battery.2"
+    }
+  ]
+}

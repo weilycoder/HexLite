@@ -1,13 +1,13 @@
 {
   "replace": false,
   "values": [
-    "hexcasting:edified_log",
-    "hexcasting:edified_log_amethyst",
-    "hexcasting:edified_log_aventurine",
-    "hexcasting:edified_log_citrine",
-    "hexcasting:edified_log_purple",
-    "hexcasting:stripped_edified_log",
-    "hexcasting:edified_wood",
-    "hexcasting:stripped_edified_wood"
+    "hexlite:edified_log",
+    "hexlite:edified_log_amethyst",
+    "hexlite:edified_log_aventurine",
+    "hexlite:edified_log_citrine",
+    "hexlite:edified_log_purple",
+    "hexlite:stripped_edified_log",
+    "hexlite:edified_wood",
+    "hexlite:stripped_edified_wood"
   ]
 }

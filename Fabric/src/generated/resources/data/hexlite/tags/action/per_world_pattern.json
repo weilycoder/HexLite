@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "hexlite:lightning",
+    "hexlite:flight",
+    "hexlite:create_lava",
+    "hexlite:teleport/great",
+    "hexlite:sentinel/create/great",
+    "hexlite:dispel_rain",
+    "hexlite:summon_rain",
+    "hexlite:brainsweep",
+    "hexlite:craft/battery",
+    "hexlite:potion/regeneration",
+    "hexlite:potion/night_vision",
+    "hexlite:potion/absorption",
+    "hexlite:potion/haste",
+    "hexlite:potion/strength"
+  ]
+}

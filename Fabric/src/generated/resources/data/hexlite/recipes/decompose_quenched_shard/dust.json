@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hexlite:quenched_allay_shard"
+    },
+    {
+      "item": "hexlite:amethyst_dust"
+    }
+  ],
+  "result": {
+    "count": 31,
+    "item": "hexlite:amethyst_dust"
+  }
+}

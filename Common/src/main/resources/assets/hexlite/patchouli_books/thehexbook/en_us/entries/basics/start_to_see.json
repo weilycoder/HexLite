@@ -1,0 +1,25 @@
+{
+  "name": "hexlite.entry.start_to_see",
+  "category": "hexlite:basics",
+  "icon": "minecraft:textures/mob_effect/blindness.png",
+  "sortnum": 1,
+  "advancement": "hexlite:opened_eyes",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.start_to_see.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.start_to_see.2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.start_to_see.3"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.start_to_see.4"
+    }
+  ]
+}

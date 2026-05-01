@@ -1,0 +1,8 @@
+{
+  "name": "hexlite.category.interop",
+  "icon": "minecraft:chain",
+  "description": "hexlite.category.interop.desc",
+  "sortnum": 99,
+  
+  "flag": "hexlite:any_interop"
+}

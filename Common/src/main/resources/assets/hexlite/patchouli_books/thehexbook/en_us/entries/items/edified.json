@@ -1,0 +1,55 @@
+{
+  "name": "hexlite.entry.edified",
+  "icon": "hexlite:edified_log",
+  "category": "hexlite:items",
+  "sortnum": 9,
+  "advancement": "hexlite:root",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.edified.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.edified.2"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:edified_planks",
+      "recipe2": "hexlite:edified_wood"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:edified_stairs",
+      "recipe2": "hexlite:edified_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:edified_panel",
+      "recipe2": "hexlite:edified_tile"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:edified_door",
+      "recipe2": "hexlite:edified_trapdoor"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:edified_button",
+      "recipe2": "hexlite:edified_pressure_plate"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.edified.crafting.desc"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "hexlite:edified_log": 0,
+    "hexlite:stripped_edified_log": 0,
+    "hexlite:edified_wood": 0,
+    "hexlite:stripped_edified_wood": 0,
+    "hexlite:amethyst_edified_leaves": 0,
+    "hexlite:aventurine_edified_leaves": 0,
+    "hexlite:citrine_edified_leaves": 0
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "hexlite:block/stripped_edified_log_top",
+    "side": "hexlite:block/stripped_edified_log"
+  }
+}

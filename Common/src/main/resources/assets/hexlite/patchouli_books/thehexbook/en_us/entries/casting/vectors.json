@@ -1,0 +1,26 @@
+{
+  "name": "hexlite.entry.vectors",
+  "category": "hexlite:casting",
+  "icon": "minecraft:arrow",
+  "priority": true,
+  "sortnum": 1,
+  "advancement": "hexlite:root",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "hexlite.page.vectors.1",
+      "link_text": "hexlite.page.vectors.1.link_text",
+      "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.vectors.2"
+    },
+    {
+      "type": "patchouli:link",
+      "text": "hexlite.page.vectors.3",
+      "link_text": "hexlite.page.vectors.3.link_text",
+      "url": "https://psi.vazkii.net/codex.php#vectorPrimer"
+    }
+  ]
+}

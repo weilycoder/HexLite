@@ -1,0 +1,23 @@
+{
+    "name": "hexlite.entry.ancient_cyphers",
+    "category": "hexlite:items",
+    "icon": "hexlite:ancient_cypher",
+    "sortnum": 7,
+    "advancement": "hexlite:root",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "hexlite.page.ancient_cyphers.1"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "text": "hexlite.page.ancient_cyphers.2",
+            "item": "hexlite:ancient_cypher{variant:0},hexlite:ancient_cypher{variant:1},hexlite:ancient_cypher{variant:2},hexlite:ancient_cypher{variant:3},hexlite:ancient_cypher{variant:4},hexlite:ancient_cypher{variant:5},hexlite:ancient_cypher{variant:6},hexlite:ancient_cypher{variant:7}"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "hexlite:ancient_colorizer",
+            "text": "hexlite.page.ancient_cyphers.3"
+        }
+    ]
+  }

@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "hexlite:directrix/boolean"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "hexlite:blocks/directrix/boolean"
+}

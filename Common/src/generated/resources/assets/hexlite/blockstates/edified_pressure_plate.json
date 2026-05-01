@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "hexlite:block/edified_pressure_plate"
+    },
+    "powered=true": {
+      "model": "hexlite:block/edified_pressure_plate_down"
+    }
+  }
+}

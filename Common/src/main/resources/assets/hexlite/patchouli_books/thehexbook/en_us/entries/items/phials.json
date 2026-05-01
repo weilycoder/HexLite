@@ -1,0 +1,28 @@
+{
+  "name": "hexlite.entry.phials",
+  "category": "hexlite:items",
+  "icon": "hexlite:battery",
+  "sortnum": 7,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.phials.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.phials.2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.phials.3"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "hexlite.page.phials.desc",
+      "item": "hexlite:battery{\"hexlite:media\":640000,\"hexlite:start_media\":640000}",
+      "link_recipe": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "hexlite:item/thought_knot",
+      "predicate": {
+        "hexlite:written": 0.0
+      }
+    },
+    {
+      "model": "hexlite:item/thought_knot_written",
+      "predicate": {
+        "hexlite:written": 1.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "hexlite:item/thought_knot"
+  }
+}

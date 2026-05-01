@@ -1,0 +1,18 @@
+{
+  "name": "hexlite.action.hexlite:cycle_variant",
+  "category": "hexlite:patterns/spells",
+  "icon": "minecraft:smithing_table",
+  "sortnum": 6,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:cycle_variant",
+      "anchor": "hexlite:cycle_variant",
+      "input": "",
+      "output": "",
+      "text": "hexlite.page.cycle_variant"
+    }
+  ]
+}
