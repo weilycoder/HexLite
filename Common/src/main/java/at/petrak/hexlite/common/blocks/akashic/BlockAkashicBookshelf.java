@@ -73,11 +73,6 @@ public class BlockAkashicBookshelf extends Block implements AkashicFloodfiller, 
         return this.defaultBlockState().setValue(FACING, ctx.getHorizontalDirection().getOpposite());
     }
 
-    @SoftImplement("forge")
-    public float getEnchantPowerBonus(BlockState state, LevelReader level, BlockPos pos) {
-        return hasEnchantPowerBonus(state, level, pos) ? 1 : 0;
-    }
-
     @Override
     public boolean hasEnchantPowerBonus(BlockState state, LevelReader level, BlockPos pos) {
         return true;

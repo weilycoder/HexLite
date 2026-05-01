@@ -5,7 +5,6 @@ import at.petrak.hexlite.interop.inline.InlineHexClient;
 import at.petrak.hexlite.interop.pehkui.PehkuiInterop;
 import at.petrak.hexlite.xplat.IClientXplatAbstractions;
 import at.petrak.hexlite.xplat.IXplatAbstractions;
-import at.petrak.hexlite.xplat.Platform;
 import vazkii.patchouli.api.PatchouliAPI;
 
 import java.util.List;
@@ -55,15 +54,7 @@ public class HexInterop {
         if (!anyInterop) {
             List<String> platformSpecificIntegrations;
 
-            Platform platform = IXplatAbstractions.INSTANCE.platform();
-            if (platform == Platform.FORGE) {
-                platformSpecificIntegrations = List.of();
-            } else if (platform == Platform.FABRIC) {
-                platformSpecificIntegrations = List.of();
-            } else {
-                throw new UnsupportedOperationException();
-            }
-
+            platformSpecificIntegrations = List.of();
             for (var id : platformSpecificIntegrations) {
                 if (IXplatAbstractions.INSTANCE.isModPresent(id)) {
                     anyInterop = true;

@@ -111,13 +111,6 @@ public class BlockConjured extends Block implements EntityBlock, IForgeLikeBlock
         // NO-OP
     }
 
-
-    @SoftImplement("forge")
-    public boolean addLandingEffects(BlockState state1, ServerLevel worldserver, BlockPos pos, BlockState state2,
-        LivingEntity entity, int numberOfParticles) {
-        return addLandingEffects(state1, worldserver, pos, entity, numberOfParticles);
-    }
-
     @Override
     public boolean addLandingEffects(BlockState state, ServerLevel worldserver, BlockPos pos,
         LivingEntity entity, int numberOfParticles) {

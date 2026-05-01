@@ -3,7 +3,6 @@ package at.petrak.hexlite.datagen.tag;
 import at.petrak.hexlite.api.casting.ActionRegistryEntry;
 import at.petrak.hexlite.api.mod.HexTags;
 import at.petrak.hexlite.xplat.IXplatAbstractions;
-import at.petrak.hexlite.xplat.Platform;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.TagsProvider;
@@ -38,15 +37,11 @@ public class HexActionTagProvider extends TagsProvider<ActionRegistryEntry> {
     }
 
     private static TagKey<ActionRegistryEntry> ersatzActionTag(TagKey<ActionRegistryEntry> real) {
-        if (IXplatAbstractions.INSTANCE.platform() == Platform.FABRIC) {
-            // Vanilla (and Fabric) has a bug here where it *writes* hexlite action tags to `.../tags/action`
-            // instead of `.../tags/hexlite/action`.
-            // So we pull this bullshit
-            var fakeKey = ResourceKey.<ActionRegistryEntry>createRegistryKey(
-                new ResourceLocation("foobar", "hexlite/tags/action"));
-            return TagKey.create(fakeKey, real.location());
-        } else {
-            return real;
-        }
+        // Vanilla (and Fabric) has a bug here where it *writes* hexlite action tags to `.../tags/action`
+        // instead of `.../tags/hexlite/action`.
+        // So we pull this bullshit
+        var fakeKey = ResourceKey.<ActionRegistryEntry>createRegistryKey(
+            new ResourceLocation("foobar", "hexlite/tags/action"));
+        return TagKey.create(fakeKey, real.location());
     }
 }

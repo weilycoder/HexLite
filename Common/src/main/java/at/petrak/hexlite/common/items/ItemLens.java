@@ -1,6 +1,5 @@
 package at.petrak.hexlite.common.items;
 
-import at.petrak.hexlite.annotations.SoftImplement;
 import at.petrak.hexlite.common.lib.HexAttributes;
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
@@ -15,7 +14,6 @@ import net.minecraft.world.item.ItemStack;
 //import net.minecraft.world.item.Wearable;
 import net.minecraft.world.level.block.DispenserBlock;
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
 import java.util.UUID;
 
@@ -58,13 +56,6 @@ public class ItemLens extends Item implements HexBaubleItem { // Wearable,
         out.put(HexAttributes.GRID_ZOOM, GRID_ZOOM);
         out.put(HexAttributes.SCRY_SIGHT, SCRY_SIGHT);
         return out;
-    }
-
-    // In fabric impled with extension property?
-    @Nullable
-    @SoftImplement("forge")
-    public EquipmentSlot getEquipmentSlot(ItemStack stack) {
-        return EquipmentSlot.HEAD;
     }
 
 //    @Nullable
