@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "hexlite:block/edified_planks",
+    "side": "hexlite:block/edified_planks",
+    "top": "hexlite:block/edified_planks"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "hexlite.entry.lore.inventory",
+  "icon": "hexlite:lore_fragment",
+  "category": "hexlite:lore",
+  "advancement": "hexlite:lore/inventory",
+  "sortnum": 7,
+  "pages": [
+    "hexlite.page.lore.inventory.1",
+    "hexlite.page.lore.inventory.2",
+    "hexlite.page.lore.inventory.3",
+    "hexlite.page.lore.inventory.4",
+    "hexlite.page.lore.inventory.5",
+    "hexlite.page.lore.inventory.6",
+    "hexlite.page.lore.inventory.7",
+    "hexlite.page.lore.inventory.8",
+    "hexlite.page.lore.inventory.9",
+    "hexlite.page.lore.inventory.10",
+    "hexlite.page.lore.inventory.11",
+    "hexlite.page.lore.inventory.12",
+    "hexlite.page.lore.inventory.13"
+  ]
+}

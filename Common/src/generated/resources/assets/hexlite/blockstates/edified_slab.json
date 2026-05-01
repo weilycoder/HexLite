@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "hexlite:block/edified_slab"
+    },
+    "type=double": {
+      "model": "hexlite:block/edified_planks"
+    },
+    "type=top": {
+      "model": "hexlite:block/edified_slab_top"
+    }
+  }
+}

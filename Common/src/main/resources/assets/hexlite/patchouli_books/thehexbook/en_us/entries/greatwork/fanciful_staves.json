@@ -1,0 +1,19 @@
+{
+  "name": "hexlite.entry.fanciful_staves",
+  "category": "hexlite:greatwork",
+  "icon": "hexlite:staff/mindsplice",
+  "sortnum": 6,
+  "advancement": "hexlite:enlightenment",
+  "entry_color": "54398a",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.fanciful_staves.1"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:staff/quenched",
+      "recipe2": "hexlite:staff/mindsplice"
+    }
+  ]
+}

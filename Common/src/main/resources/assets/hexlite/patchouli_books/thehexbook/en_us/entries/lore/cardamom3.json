@@ -1,0 +1,21 @@
+{
+  "name": "hexlite.entry.lore.cardamom3",
+  "icon": "hexlite:lore_fragment",
+  "category": "hexlite:lore",
+  "advancement": "hexlite:lore/cardamom3",
+  "sortnum": 2,
+  "pages": [
+    "hexlite.page.lore.cardamom3.1",
+    "hexlite.page.lore.cardamom3.2",
+    "hexlite.page.lore.cardamom3.3",
+    "hexlite.page.lore.cardamom3.4",
+    "hexlite.page.lore.cardamom3.5",
+    "hexlite.page.lore.cardamom3.6",
+    "hexlite.page.lore.cardamom3.7",
+    "hexlite.page.lore.cardamom3.8",
+    "hexlite.page.lore.cardamom3.9",
+    "hexlite.page.lore.cardamom3.10",
+    "hexlite.page.lore.cardamom3.11",
+    "hexlite.page.lore.cardamom3.12"
+  ]
+}

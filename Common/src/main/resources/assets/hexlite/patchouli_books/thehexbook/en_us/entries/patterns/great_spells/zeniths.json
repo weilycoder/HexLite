@@ -1,0 +1,54 @@
+{
+  "name": "hexlite.entry.zeniths",
+  "category": "hexlite:patterns/great_spells",
+  "icon": "minecraft:potion{Potion:'minecraft:regeneration'}",
+  "advancement": "hexlite:root",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.zeniths.1"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:potion/regeneration",
+      "anchor": "hexlite:potion/regeneration",
+      "input": "entity, number, number",
+      "output": "",
+      "text": "hexlite.page.zeniths.potion/regeneration"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:potion/night_vision",
+      "anchor": "hexlite:potion/night_vision",
+      "input": "entity, number",
+      "output": "",
+      "text": "hexlite.page.zeniths.potion/night_vision"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:potion/absorption",
+      "anchor": "hexlite:potion/absorption",
+      "input": "entity, number, number",
+      "output": "",
+      "text": "hexlite.page.zeniths.potion/absorption"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:potion/haste",
+      "anchor": "hexlite:potion/haste",
+      "input": "entity, number, number",
+      "output": "",
+      "text": "hexlite.page.zeniths.potion/haste"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:potion/strength",
+      "anchor": "hexlite:potion/strength",
+      "input": "entity, number, number",
+      "output": "",
+      "text": "hexlite.page.zeniths.potion/strength"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "hexlite:scroll_paper_lantern"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "hexlite:blocks/scroll_paper_lantern"
+}

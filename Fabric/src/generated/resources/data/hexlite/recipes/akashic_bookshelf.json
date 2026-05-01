@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "C": {
+      "item": "minecraft:book"
+    },
+    "L": {
+      "tag": "hexlite:edified_logs"
+    },
+    "P": {
+      "tag": "hexlite:edified_planks"
+    }
+  },
+  "pattern": [
+    "LPL",
+    "CCC",
+    "LPL"
+  ],
+  "result": {
+    "item": "hexlite:akashic_bookshelf"
+  },
+  "show_notification": true
+}

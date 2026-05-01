@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hexlite:item/cad/3_focus_filled",
+    "layer1": "hexlite:item/cad/3_focus_filled_overlay"
+  }
+}

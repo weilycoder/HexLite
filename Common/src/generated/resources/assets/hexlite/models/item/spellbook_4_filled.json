@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hexlite:item/cad/4_spellbook_filled",
+    "layer1": "hexlite:item/cad/4_spellbook_filled_overlay"
+  }
+}

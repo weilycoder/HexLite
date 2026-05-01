@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "hexlite:block/deco/amethyst_pillar",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "hexlite:block/deco/amethyst_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "hexlite:block/deco/amethyst_pillar",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "hexlite:block/deco/amethyst_pillar",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "hexlite:block/deco/amethyst_pillar"
+    },
+    "facing=west": {
+      "model": "hexlite:block/deco/amethyst_pillar",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

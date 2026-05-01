@@ -1,0 +1,28 @@
+{
+  "overrides": [
+    {
+      "model": "hexlite:item/quenched_shard_0",
+      "predicate": {
+        "hexlite:variant": 0.0
+      }
+    },
+    {
+      "model": "hexlite:item/quenched_shard_1",
+      "predicate": {
+        "hexlite:variant": 1.0
+      }
+    },
+    {
+      "model": "hexlite:item/quenched_shard_2",
+      "predicate": {
+        "hexlite:variant": 2.0
+      }
+    },
+    {
+      "model": "hexlite:item/quenched_shard_3",
+      "predicate": {
+        "hexlite:variant": 3.0
+      }
+    }
+  ]
+}

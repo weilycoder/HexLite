@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "hexlite:conjured_block",
+    "hexlite:conjured_light"
+  ]
+}

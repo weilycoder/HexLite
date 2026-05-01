@@ -1,0 +1,176 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "hexlite:item/focus",
+      "predicate": {
+        "hexlite:overlay_layer": 0.0,
+        "hexlite:variant": 0.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_0_filled",
+      "predicate": {
+        "hexlite:overlay_layer": 1.0,
+        "hexlite:variant": 0.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_0_sealed",
+      "predicate": {
+        "hexlite:overlay_layer": 2.0,
+        "hexlite:variant": 0.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_1",
+      "predicate": {
+        "hexlite:overlay_layer": 0.0,
+        "hexlite:variant": 1.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_1_filled",
+      "predicate": {
+        "hexlite:overlay_layer": 1.0,
+        "hexlite:variant": 1.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_1_sealed",
+      "predicate": {
+        "hexlite:overlay_layer": 2.0,
+        "hexlite:variant": 1.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_2",
+      "predicate": {
+        "hexlite:overlay_layer": 0.0,
+        "hexlite:variant": 2.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_2_filled",
+      "predicate": {
+        "hexlite:overlay_layer": 1.0,
+        "hexlite:variant": 2.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_2_sealed",
+      "predicate": {
+        "hexlite:overlay_layer": 2.0,
+        "hexlite:variant": 2.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_3",
+      "predicate": {
+        "hexlite:overlay_layer": 0.0,
+        "hexlite:variant": 3.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_3_filled",
+      "predicate": {
+        "hexlite:overlay_layer": 1.0,
+        "hexlite:variant": 3.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_3_sealed",
+      "predicate": {
+        "hexlite:overlay_layer": 2.0,
+        "hexlite:variant": 3.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_4",
+      "predicate": {
+        "hexlite:overlay_layer": 0.0,
+        "hexlite:variant": 4.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_4_filled",
+      "predicate": {
+        "hexlite:overlay_layer": 1.0,
+        "hexlite:variant": 4.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_4_sealed",
+      "predicate": {
+        "hexlite:overlay_layer": 2.0,
+        "hexlite:variant": 4.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_5",
+      "predicate": {
+        "hexlite:overlay_layer": 0.0,
+        "hexlite:variant": 5.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_5_filled",
+      "predicate": {
+        "hexlite:overlay_layer": 1.0,
+        "hexlite:variant": 5.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_5_sealed",
+      "predicate": {
+        "hexlite:overlay_layer": 2.0,
+        "hexlite:variant": 5.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_6",
+      "predicate": {
+        "hexlite:overlay_layer": 0.0,
+        "hexlite:variant": 6.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_6_filled",
+      "predicate": {
+        "hexlite:overlay_layer": 1.0,
+        "hexlite:variant": 6.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_6_sealed",
+      "predicate": {
+        "hexlite:overlay_layer": 2.0,
+        "hexlite:variant": 6.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_7",
+      "predicate": {
+        "hexlite:overlay_layer": 0.0,
+        "hexlite:variant": 7.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_7_filled",
+      "predicate": {
+        "hexlite:overlay_layer": 1.0,
+        "hexlite:variant": 7.0
+      }
+    },
+    {
+      "model": "hexlite:item/focus_7_sealed",
+      "predicate": {
+        "hexlite:overlay_layer": 2.0,
+        "hexlite:variant": 7.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "hexlite:item/cad/0_focus_empty"
+  }
+}

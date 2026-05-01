@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "W": {
+      "tag": "hexlite:edified_planks"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "WWW"
+  ],
+  "result": {
+    "count": 2,
+    "item": "hexlite:edified_trapdoor"
+  },
+  "show_notification": true
+}

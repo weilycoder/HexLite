@@ -1,0 +1,39 @@
+{
+  "name": "hexlite.entry.flights",
+  "category": "hexlite:patterns/spells",
+  "icon": "minecraft:feather",
+  "advancement": "hexlite:root",
+  "sortnum": 7,
+  "read_by_default": true,
+  "pages": [
+    "hexlite.page.flights.1",
+    "hexlite.page.flights.2",
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:flight/range",
+      "anchor": "hexlite:flight/range",
+      "input": "entity, number",
+      "output": "",
+      "text": "hexlite.page.flights.range.1"
+    },
+    "hexlite.page.flights.range.2",
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:flight/time",
+      "anchor": "hexlite:flight/time",
+      "input": "entity, number",
+      "output": "",
+      "text": "hexlite.page.flights.time.1"
+    },
+    "hexlite.page.flights.time.2",
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:flight/can_fly",
+      "anchor": "hexlite:flight/can_fly",
+      "input": "entity",
+      "output": "boolean",
+      "text": "hexlite.page.flights.can_fly.1"
+    },
+    "hexlite.page.flights.can_fly.2"
+  ]
+}

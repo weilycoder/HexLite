@@ -1,0 +1,140 @@
+{
+  "name": "hexlite.entry.lists",
+  "category": "hexlite:patterns",
+  "icon": "minecraft:oak_sign",
+  "sortnum": 7,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:index",
+      "anchor": "hexlite:index",
+      "input": "list, number",
+      "output": "any",
+      "text": "hexlite.page.lists.index"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:slice",
+      "anchor": "hexlite:slice",
+      "input": "list, num, num",
+      "output": "list",
+      "text": "hexlite.page.lists.slice"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:append",
+      "anchor": "hexlite:append",
+      "input": "list, any",
+      "output": "list",
+      "text": "hexlite.page.lists.append"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:unappend",
+      "anchor": "hexlite:unappend",
+      "input": "list",
+      "output": "list, any",
+      "text": "hexlite.page.lists.unappend"
+    },
+    {
+      "type": "hexlite:pattern",
+      "header": "hexlite.action.hexlite:add",
+      "op_id": "hexlite:add",
+      "anchor": "hexlite:add",
+      "input": "list, list",
+      "output": "list",
+      "text": "hexlite.page.lists.add"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:empty_list",
+      "anchor": "hexlite:empty_list",
+      "input": "",
+      "output": "list",
+      "text": "hexlite.page.lists.empty_list"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:singleton",
+      "anchor": "hexlite:singleton",
+      "input": "any",
+      "output": "list",
+      "text": "hexlite.page.lists.singleton"
+    },
+    {
+      "type": "hexlite:pattern",
+      "header": "hexlite.action.hexlite:abs",
+      "op_id": "hexlite:abs",
+      "anchor": "hexlite:abs",
+      "input": "list",
+      "output": "num",
+      "text": "hexlite.page.lists.abs"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:reverse",
+      "anchor": "hexlite:reverse",
+      "input": "list",
+      "output": "list",
+      "text": "hexlite.page.lists.reverse"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:index_of",
+      "anchor": "hexlite:index_of",
+      "input": "list, any",
+      "output": "num",
+      "text": "hexlite.page.lists.index_of"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:remove_from",
+      "anchor": "hexlite:remove_from",
+      "input": "list, num",
+      "output": "list",
+      "text": "hexlite.page.lists.remove_from"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:replace",
+      "anchor": "hexlite:replace",
+      "input": "list, num, any",
+      "output": "list",
+      "text": "hexlite.page.lists.replace"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:last_n_list",
+      "anchor": "hexlite:last_n_list",
+      "input": "many, num",
+      "output": "list",
+      "text": "hexlite.page.lists.last_n_list"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:splat",
+      "anchor": "hexlite:splat",
+      "input": "list",
+      "output": "many",
+      "text": "hexlite.page.lists.splat"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:construct",
+      "anchor": "hexlite:construct",
+      "input": "list, any",
+      "output": "list",
+      "text": "hexlite.page.lists.construct"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:deconstruct",
+      "anchor": "hexlite:deconstruct",
+      "input": "list",
+      "output": "list, any",
+      "text": "hexlite.page.lists.deconstruct"
+    }
+  ]
+}

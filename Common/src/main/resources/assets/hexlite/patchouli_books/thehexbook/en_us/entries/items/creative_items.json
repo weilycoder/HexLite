@@ -1,0 +1,30 @@
+{
+  "name": "hexlite.entry.creative_items",
+  "icon": "hexlite:creative_unlocker",
+  "category": "hexlite:items",
+  "sortnum": 99,
+  "advancement": "hexlite:creative_unlocker",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.creative_items.1"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "hexlite.page.creative_items.creative_unlocker",
+      "item": "hexlite:creative_unlocker",
+      "link_recipe": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.creative_items.2"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "hexlite.page.creative_items.debug_media.title",
+      "text": "hexlite.page.creative_items.debug_media.desc",
+      "item": "hexlite:creative_unlocker{display:{Name:'{\\\"text\\\":\\\"debug media\\\"}'}}"
+    }
+  ]
+}

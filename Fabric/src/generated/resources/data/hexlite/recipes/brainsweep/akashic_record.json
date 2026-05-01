@@ -1,0 +1,16 @@
+{
+  "type": "hexlite:brainsweep",
+  "blockIn": {
+    "type": "block",
+    "block": "hexlite:akashic_connector"
+  },
+  "cost": 1000000,
+  "entityIn": {
+    "type": "villager",
+    "minLevel": 5,
+    "profession": "librarian"
+  },
+  "result": {
+    "name": "hexlite:akashic_record"
+  }
+}

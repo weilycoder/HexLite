@@ -1,0 +1,74 @@
+{
+  "name": "hexlite.entry.advanced_math",
+  "category": "hexlite:patterns",
+  "icon": "minecraft:quartz",
+  "sortnum": 11,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:sin",
+      "anchor": "hexlite:sin",
+      "input": "num",
+      "output": "num",
+      "text": "hexlite.page.advanced_math.sin"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:cos",
+      "anchor": "hexlite:cos",
+      "input": "num",
+      "output": "num",
+      "text": "hexlite.page.advanced_math.cos"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:tan",
+      "anchor": "hexlite:tan",
+      "input": "num",
+      "output": "num",
+      "text": "hexlite.page.advanced_math.tan"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:arcsin",
+      "anchor": "hexlite:arcsin",
+      "input": "num",
+      "output": "num",
+      "text": "hexlite.page.advanced_math.arcsin"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:arccos",
+      "anchor": "hexlite:arccos",
+      "input": "num",
+      "output": "num",
+      "text": "hexlite.page.advanced_math.arccos"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:arctan",
+      "anchor": "hexlite:arctan",
+      "input": "num",
+      "output": "num",
+      "text": "hexlite.page.advanced_math.arctan"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:arctan2",
+      "anchor": "hexlite:arctan2",
+      "input": "num, num",
+      "output": "num",
+      "text": "hexlite.page.advanced_math.arctan2"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:logarithm",
+      "anchor": "hexlite:logarithm",
+      "input": "num, num",
+      "output": "num",
+      "text": "hexlite.page.advanced_math.logarithm"
+    }
+  ]
+}

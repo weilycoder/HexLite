@@ -1,0 +1,90 @@
+{
+  "name": "hexlite.entry.blockworks",
+  "category": "hexlite:patterns/spells",
+  "icon": "minecraft:cobblestone",
+  "sortnum": 1,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:place_block",
+      "anchor": "hexlite:place_block",
+      "input": "vector",
+      "output": "",
+      "text": "hexlite.page.blockworks.place_block"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:break_block",
+      "anchor": "hexlite:break_block",
+      "input": "vector",
+      "output": "",
+      "text": "hexlite.page.blockworks.break_block"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:create_water",
+      "anchor": "hexlite:create_water",
+      "input": "vector",
+      "output": "",
+      "text": "hexlite.page.blockworks.create_water"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:destroy_water",
+      "anchor": "hexlite:destroy_water",
+      "input": "vector",
+      "output": "",
+      "text": "hexlite.page.blockworks.destroy_water"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:conjure_block",
+      "anchor": "hexlite:conjure_block",
+      "input": "vector",
+      "output": "",
+      "text": "hexlite.page.blockworks.conjure_block"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:conjure_light",
+      "anchor": "hexlite:conjure_light",
+      "input": "vector",
+      "output": "",
+      "text": "hexlite.page.blockworks.conjure_light"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:bonemeal",
+      "anchor": "hexlite:bonemeal",
+      "input": "vector",
+      "output": "",
+      "text": "hexlite.page.blockworks.bonemeal"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:edify",
+      "anchor": "hexlite:edify",
+      "input": "vector",
+      "output": "",
+      "text": "hexlite.page.blockworks.edify"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:ignite",
+      "anchor": "hexlite:ignite",
+      "input": "entity | vector",
+      "output": "",
+      "text": "hexlite.page.blockworks.ignite"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:extinguish",
+      "anchor": "hexlite:extinguish",
+      "input": "vector",
+      "output": "",
+      "text": "hexlite.page.blockworks.extinguish"
+    }
+  ]
+}

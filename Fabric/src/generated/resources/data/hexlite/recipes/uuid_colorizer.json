@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "hexlite:amethyst_dust"
+    },
+    "D": {
+      "item": "hexlite:amethyst_dust"
+    },
+    "I": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "pattern": [
+    "DCD",
+    "CIC",
+    "DCD"
+  ],
+  "result": {
+    "item": "hexlite:uuid_colorizer"
+  },
+  "show_notification": true
+}

@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "hexcasting",
+  "id": "hexlite",
   "version": "${version}",
-  "name": "Hex Casting",
+  "name": "HexLite",
   "description": "Cast powerful Hexes on the fly by drawing patterns with a staff.",
   "authors": [
     "petrak@ (aka gamma-delta)"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/hexcasting",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/hexlite",
     "sources": "https://github.com/gamma-delta/HexMod"
   },
   "license": "MIT",
@@ -18,26 +18,26 @@
     "main": [
       {
         "adapter": "kotlin",
-        "value": "at.petrak.hexcasting.fabric.FabricHexInitializer"
+        "value": "at.petrak.hexlite.fabric.FabricHexInitializer"
       }
     ],
     "client": [
       {
         "adapter": "kotlin",
-        "value": "at.petrak.hexcasting.fabric.FabricHexClientInitializer"
+        "value": "at.petrak.hexlite.fabric.FabricHexClientInitializer"
       }
     ],
     "fabric-datagen": [
-      "at.petrak.hexcasting.fabric.datagen.HexFabricDataGenerators"
+      "at.petrak.hexlite.fabric.datagen.HexFabricDataGenerators"
     ],
     "cardinal-components": [
-      "at.petrak.hexcasting.fabric.cc.HexCardinalComponents"
+      "at.petrak.hexlite.fabric.cc.HexCardinalComponents"
     ],
     "emi": [
-      "at.petrak.hexcasting.fabric.interop.emi.HexEMIPlugin"
+      "at.petrak.hexlite.fabric.interop.emi.HexEMIPlugin"
     ],
     "modmenu": [
-      "at.petrak.hexcasting.fabric.interop.ModMenuInterop"
+      "at.petrak.hexlite.fabric.interop.ModMenuInterop"
     ]
   },
   "mixins": [
@@ -66,19 +66,19 @@
   },
   "custom": {
     "cardinal-components": [
-      "hexcasting:brainswept",
-      "hexcasting:favored_pigment",
-      "hexcasting:sentinel",
-      "hexcasting:flight",
-      "hexcasting:altiora",
-      "hexcasting:harness",
-      "hexcasting:patterns",
-      "hexcasting:client_casting_stack",
-      "hexcasting:pigment",
-      "hexcasting:iota_holder",
-      "hexcasting:media_holder",
-      "hexcasting:hex_holder",
-      "hexcasting:variant_item"
+      "hexlite:brainswept",
+      "hexlite:favored_pigment",
+      "hexlite:sentinel",
+      "hexlite:flight",
+      "hexlite:altiora",
+      "hexlite:harness",
+      "hexlite:patterns",
+      "hexlite:client_casting_stack",
+      "hexlite:pigment",
+      "hexlite:iota_holder",
+      "hexlite:media_holder",
+      "hexlite:hex_holder",
+      "hexlite:variant_item"
     ]
   }
 }

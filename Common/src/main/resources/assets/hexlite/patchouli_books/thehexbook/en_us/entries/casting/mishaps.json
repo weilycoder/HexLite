@@ -1,0 +1,97 @@
+{
+  "name": "hexlite.entry.mishaps",
+  "category": "hexlite:casting",
+  "icon": "minecraft:textures/mob_effect/poison.png",
+  "priority": true,
+  "sortnum": 2,
+  "advancement": "hexlite:root",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.mishaps.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.mishaps.2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.mishaps.3"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.mishaps.invalid_pattern.title",
+      "text": "hexlite.page.mishaps.invalid_pattern"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.mishaps.not_enough_iotas.title",
+      "text": "hexlite.page.mishaps.not_enough_iotas"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.mishaps.stack_size.title",
+      "text": "hexlite.page.mishaps.stack_size"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.mishaps.incorrect_iota.title",
+      "text": "hexlite.page.mishaps.incorrect_iota"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.mishaps.vector_out_of_range.title",
+      "text": "hexlite.page.mishaps.vector_out_of_range"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.mishaps.entity_out_of_range.title",
+      "text": "hexlite.page.mishaps.entity_out_of_range"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.mishaps.entity_immune.title",
+      "text": "hexlite.page.mishaps.entity_immune"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.mishaps.math_error.title",
+      "text": "hexlite.page.mishaps.math_error"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.mishaps.incorrect_item.title",
+      "text": "hexlite.page.mishaps.incorrect_item"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.mishaps.incorrect_block.title",
+      "text": "hexlite.page.mishaps.incorrect_block"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.mishaps.retrospection.title",
+      "text": "hexlite.page.mishaps.retrospection"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.mishaps.too_many_patterns.title",
+      "text": "hexlite.page.mishaps.too_many_patterns"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.mishaps.true_name.title",
+      "text": "hexlite.page.mishaps.true_name"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.mishaps.disabled.title",
+      "text": "hexlite.page.mishaps.disabled"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.mishaps.other.title",
+      "text": "hexlite.page.mishaps.other"
+    }
+  ]
+}

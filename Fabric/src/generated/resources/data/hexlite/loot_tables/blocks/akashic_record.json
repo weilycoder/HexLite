@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "hexlite:akashic_record"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "hexlite:blocks/akashic_record"
+}

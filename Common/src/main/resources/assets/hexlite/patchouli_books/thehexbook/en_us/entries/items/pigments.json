@@ -1,0 +1,79 @@
+{
+  "name": "hexlite.entry.pigments",
+  "category": "hexlite:items",
+  "icon": "hexlite:uuid_colorizer",
+  "sortnum": 8,
+  "advancement": "hexlite:root",
+  "pages": [
+    "hexlite.page.pigments.1",
+    "hexlite.page.pigments.2",
+    {
+      "type": "hexlite:crafting_multi",
+      "heading": "hexlite.page.pigments.colored.crafting.header",
+      "text": "hexlite.page.pigments.colored.crafting.desc",
+      "recipes": [
+        "hexlite:dye_colorizer_white",
+        "hexlite:dye_colorizer_orange",
+        "hexlite:dye_colorizer_magenta",
+        "hexlite:dye_colorizer_light_blue",
+        "hexlite:dye_colorizer_yellow",
+        "hexlite:dye_colorizer_lime",
+        "hexlite:dye_colorizer_pink",
+        "hexlite:dye_colorizer_gray",
+        "hexlite:dye_colorizer_light_gray",
+        "hexlite:dye_colorizer_cyan",
+        "hexlite:dye_colorizer_purple",
+        "hexlite:dye_colorizer_blue",
+        "hexlite:dye_colorizer_brown",
+        "hexlite:dye_colorizer_green",
+        "hexlite:dye_colorizer_red"
+      ]
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:pride_colorizer_agender",
+      "recipe2": "hexlite:pride_colorizer_aroace"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:pride_colorizer_aromantic",
+      "recipe2": "hexlite:pride_colorizer_asexual"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:pride_colorizer_bisexual",
+      "recipe2": "hexlite:pride_colorizer_demiboy"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:pride_colorizer_demigirl",
+      "recipe2": "hexlite:pride_colorizer_gay"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:pride_colorizer_genderfluid",
+      "recipe2": "hexlite:pride_colorizer_genderqueer"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:pride_colorizer_intersex",
+      "recipe2": "hexlite:pride_colorizer_lesbian"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:pride_colorizer_nonbinary",
+      "recipe2": "hexlite:pride_colorizer_pansexual"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:pride_colorizer_plural",
+      "recipe2": "hexlite:pride_colorizer_transgender"
+    },
+    "hexlite.page.pigments.special",
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:uuid_colorizer",
+      "recipe2": "hexlite:default_colorizer"
+    }
+  ]
+}

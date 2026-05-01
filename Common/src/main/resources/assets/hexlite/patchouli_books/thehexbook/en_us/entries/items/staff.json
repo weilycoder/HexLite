@@ -1,0 +1,33 @@
+{
+  "name": "hexlite.entry.staff",
+  "icon": "hexlite:staff/oak",
+  "category": "hexlite:items",
+  "priority": true,
+  "sortnum": 1,
+  "advancement": "hexlite:root",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.staff.1"
+    },
+    {
+      "type": "hexlite:crafting_multi",
+      "heading": "hexlite.page.staff.crafting.header",
+      "text": "hexlite.page.staff.crafting.desc",
+      "recipes": [
+        "hexlite:staff/oak",
+        "hexlite:staff/spruce",
+        "hexlite:staff/birch",
+        "hexlite:staff/jungle",
+        "hexlite:staff/acacia",
+        "hexlite:staff/dark_oak",
+        "hexlite:staff/crimson",
+        "hexlite:staff/warped",
+        "hexlite:staff/mangrove",
+        "hexlite:staff/bamboo",
+        "hexlite:staff/cherry",
+        "hexlite:staff/edified"
+      ]
+    }
+  ]
+}

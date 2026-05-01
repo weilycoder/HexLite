@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "hexlite:slate_block",
+    "hexlite:slate_bricks",
+    "hexlite:slate_bricks_small",
+    "hexlite:slate_tiles",
+    "hexlite:slate_pillar"
+  ]
+}

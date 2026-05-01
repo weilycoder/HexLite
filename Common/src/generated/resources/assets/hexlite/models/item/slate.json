@@ -1,0 +1,16 @@
+{
+  "overrides": [
+    {
+      "model": "hexlite:item/slate_blank",
+      "predicate": {
+        "hexlite:written": 0.0
+      }
+    },
+    {
+      "model": "hexlite:item/slate_written",
+      "predicate": {
+        "hexlite:written": 1.0
+      }
+    }
+  ]
+}

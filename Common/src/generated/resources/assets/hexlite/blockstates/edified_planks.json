@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "hexlite:block/edified_planks",
+        "weight": 3
+      },
+      {
+        "model": "hexlite:block/edified_planks_2",
+        "weight": 3
+      },
+      {
+        "model": "hexlite:block/edified_planks_3"
+      }
+    ]
+  }
+}

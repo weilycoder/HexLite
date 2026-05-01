@@ -1,0 +1,158 @@
+{
+  "name": "hexlite.entry.stackmanip",
+  "category": "hexlite:patterns",
+  "icon": "minecraft:piston",
+  "sortnum": 4,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:manual_pattern",
+      "header": "hexlite.page.stackmanip.pseudo-novice.title",
+      "anchor": "hexlite:pseudo-novice",
+      "input": "any",
+      "output": "",
+      "text": "hexlite.page.stackmanip.pseudo-novice",
+      "patterns": [
+        {
+          "startdir": "EAST",
+          "signature": "a",
+          "q": 0,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:swap",
+      "anchor": "hexlite:swap",
+      "input": "any, any",
+      "output": "any, any",
+      "text": "hexlite.page.stackmanip.swap"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:rotate",
+      "anchor": "hexlite:rotate",
+      "input": "any, any, any",
+      "output": "any, any, any",
+      "text": "hexlite.page.stackmanip.rotate"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:rotate_reverse",
+      "anchor": "hexlite:rotate_reverse",
+      "input": "any, any, any",
+      "output": "any, any, any",
+      "text": "hexlite.page.stackmanip.rotate_reverse"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:duplicate",
+      "anchor": "hexlite:duplicate",
+      "input": "any",
+      "output": "any, any",
+      "text": "hexlite.page.stackmanip.duplicate"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:over",
+      "anchor": "hexlite:over",
+      "input": "any, any",
+      "output": "any, any, any",
+      "text": "hexlite.page.stackmanip.over"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:tuck",
+      "anchor": "hexlite:tuck",
+      "input": "any, any",
+      "output": "any, any, any",
+      "text": "hexlite.page.stackmanip.tuck"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:duplicate_n",
+      "anchor": "hexlite:duplicate_n",
+      "input": "any, number",
+      "output": "many",
+      "text": "hexlite.page.stackmanip.duplicate_n"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:2dup",
+      "anchor": "hexlite:2dup",
+      "input": "any, any",
+      "output": "any, any, any, any",
+      "text": "hexlite.page.stackmanip.2dup"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:stack_len",
+      "anchor": "hexlite:stack_len",
+      "input": "",
+      "output": "number",
+      "text": "hexlite.page.stackmanip.stack_len"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:fisherman",
+      "anchor": "hexlite:fisherman",
+      "input": "number",
+      "output": "any",
+      "text": "hexlite.page.stackmanip.fisherman"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:fisherman/copy",
+      "anchor": "hexlite:fisherman/copy",
+      "input": "number",
+      "output": "any",
+      "text": "hexlite.page.stackmanip.fisherman/copy"
+    },
+    {
+      "type": "hexlite:manual_pattern",
+      "op_id": "hexlite:mask",
+      "anchor": "hexlite:mask",
+      "input": "many",
+      "output": "many",
+      "text": "hexlite.page.stackmanip.mask.1",
+      "patterns": [
+        {
+          "startdir": "SOUTH_EAST",
+          "signature": "aeea"
+        },
+        {
+          "startdir": "EAST",
+          "signature": "eada",
+          "q": 1,
+          "r": 2
+        },
+        {
+          "startdir": "SOUTH_EAST",
+          "signature": "ae",
+          "q": 2,
+          "r": 4
+        }
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.stackmanip.mask.2"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:swizzle",
+      "anchor": "hexlite:swizzle",
+      "input": "many, number",
+      "output": "many",
+      "text": "hexlite.page.stackmanip.swizzle.1"
+    },
+    {
+      "type": "patchouli:link",
+      "text": "hexlite.page.stackmanip.swizzle.2",
+      "link_text": "hexlite.page.stackmanip.swizzle.link",
+      "url": "https://github.com/gamma-delta/HexMod/wiki/Table-of-Lehmer-Codes-for-Swindler's-Gambit"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "hexlite.action.hexlite:brainsweep",
+  "category": "hexlite:patterns/great_spells",
+  "icon": "minecraft:skeleton_skull",
+  "sortnum": 7,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:brainsweep",
+      "anchor": "hexlite:brainsweep",
+      "input": "entity, vector",
+      "output": "",
+      "text": "hexlite.page.brainsweep_spell.1"
+    }
+  ]
+}

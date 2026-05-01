@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "hexlite:charged_amethyst"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "minecraft:warped_planks"
+    }
+  },
+  "pattern": [
+    " SA",
+    " WS",
+    "S  "
+  ],
+  "result": {
+    "item": "hexlite:staff/warped"
+  },
+  "show_notification": true
+}

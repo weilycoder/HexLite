@@ -1,0 +1,26 @@
+{
+  "name": "hexlite.entry.akashic_patterns",
+  "category": "hexlite:patterns",
+  "icon": "hexlite:akashic_bookshelf",
+  "sortnum": 14,
+  "advancement": "hexlite:enlightenment",
+  "entry_color": "54398a",
+  "pages": [
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:akashic/read",
+      "anchor": "hexlite:akashic/read",
+      "input": "vector, pattern",
+      "output": "any",
+      "text": "hexlite.page.akashic_patterns.akashic/read"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:akashic/write",
+      "anchor": "hexlite:akashic/write",
+      "input": "vector, pattern, any",
+      "output": "",
+      "text": "hexlite.page.akashic_patterns.akashic/write"
+    }
+  ]
+}

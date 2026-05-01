@@ -1,0 +1,7 @@
+{
+  "name": "hexlite.category.great_spells",
+  "icon": "minecraft:textures/mob_effect/conduit_power.png",
+  "description": "hexlite.category.great_spells.desc",
+  "parent": "hexlite:patterns",
+  "sortnum": 1
+}

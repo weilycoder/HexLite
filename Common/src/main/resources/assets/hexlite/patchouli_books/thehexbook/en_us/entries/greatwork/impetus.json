@@ -1,0 +1,50 @@
+{
+  "name": "hexlite.entry.impetus",
+  "category": "hexlite:greatwork",
+  "icon": "hexlite:impetus/rightclick",
+  "advancement": "hexlite:enlightenment",
+  "entry_color": "54398a",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.impetus.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.impetus.2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.impetus.3"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.impetus.4"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:impetus/empty",
+      "text": "hexlite.page.impetus.empty_impetus"
+    },
+    {
+      "type": "hexlite:brainsweep",
+      "recipe": "hexlite:brainsweep/impetus_rightclick",
+      "text": "hexlite.page.impetus.impetus_rightclick"
+    },
+    {
+      "type": "hexlite:brainsweep",
+      "recipe": "hexlite:brainsweep/impetus_storedplayer",
+      "text": "hexlite.page.impetus.impetus_storedplayer.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.impetus.impetus_storedplayer.2"
+    },
+    {
+      "type": "hexlite:brainsweep",
+      "recipe": "hexlite:brainsweep/impetus_look",
+      "text": "hexlite.page.impetus.impetus_look"
+    }
+  ]
+}

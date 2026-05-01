@@ -21,11 +21,11 @@
     },
     {
       "count": 5,
-      "item": "hexcasting:amethyst_dust"
+      "item": "hexlite:amethyst_dust"
     },
     {
       "chance": 0.25,
-      "item": "hexcasting:charged_amethyst"
+      "item": "hexlite:charged_amethyst"
     }
   ]
 }

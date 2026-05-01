@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "hexlite:amethyst_dust_block"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "hexlite:amethyst_dust"
+  }
+}

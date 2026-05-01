@@ -1,0 +1,33 @@
+{
+  "name": "hexlite.entry.directrix",
+  "category": "hexlite:greatwork",
+  "icon": "hexlite:directrix/redstone",
+  "advancement": "hexlite:enlightenment",
+  "entry_color": "54398a",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.directrix.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.directrix.2"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:directrix/empty",
+      "text": "hexlite.page.directrix.empty_directrix"
+    },
+    {
+      "type": "hexlite:brainsweep",
+      "recipe": "hexlite:brainsweep/directrix_redstone",
+      "text": "hexlite.page.directrix.directrix_redstone"
+    },
+    {
+      "type": "hexlite:brainsweep",
+      "recipe": "hexlite:brainsweep/directrix_boolean",
+      "text": "hexlite.page.directrix.directrix_boolean"
+    }
+  ]
+}

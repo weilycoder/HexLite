@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "hexlite:block/circle/bottom",
+    "east": "hexlite:block/circle/impetus/look/left_lit",
+    "north": "hexlite:block/circle/impetus/look/front_lit",
+    "particle": "hexlite:block/slate",
+    "south": "hexlite:block/circle/impetus/back_lit",
+    "up": "hexlite:block/circle/impetus/look/top_lit",
+    "west": "hexlite:block/circle/impetus/look/right_lit"
+  }
+}

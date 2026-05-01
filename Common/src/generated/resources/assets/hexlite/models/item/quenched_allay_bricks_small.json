@@ -1,0 +1,28 @@
+{
+  "overrides": [
+    {
+      "model": "hexlite:block/deco/quenched_allay_bricks_small_0",
+      "predicate": {
+        "hexlite:variant": 0.0
+      }
+    },
+    {
+      "model": "hexlite:block/deco/quenched_allay_bricks_small_1",
+      "predicate": {
+        "hexlite:variant": 1.0
+      }
+    },
+    {
+      "model": "hexlite:block/deco/quenched_allay_bricks_small_2",
+      "predicate": {
+        "hexlite:variant": 2.0
+      }
+    },
+    {
+      "model": "hexlite:block/deco/quenched_allay_bricks_small_3",
+      "predicate": {
+        "hexlite:variant": 3.0
+      }
+    }
+  ]
+}

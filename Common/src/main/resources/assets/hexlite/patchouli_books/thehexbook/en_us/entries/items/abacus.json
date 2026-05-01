@@ -1,0 +1,22 @@
+{
+  "name": "hexlite.entry.abacus",
+  "category": "hexlite:items",
+  "icon": "hexlite:abacus",
+  "sortnum": 2,
+  "advancement": "hexlite:root",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.abacus.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.abacus.2"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:abacus",
+      "text": "hexlite.page.abacus.crafting.desc"
+    }
+  ]
+}

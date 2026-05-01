@@ -1,0 +1,98 @@
+{
+  "name": "hexlite.entry.readwrite",
+  "category": "hexlite:patterns",
+  "icon": "minecraft:writable_book",
+  "sortnum": 9,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    "hexlite.page.readwrite.1",
+    "hexlite.page.readwrite.2",
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:read",
+      "anchor": "hexlite:read",
+      "input": "",
+      "output": "any",
+      "text": "hexlite.page.readwrite.read"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:write",
+      "anchor": "hexlite:write",
+      "input": "any",
+      "output": "",
+      "text": "hexlite.page.readwrite.write"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:read/entity",
+      "anchor": "hexlite:read/entity",
+      "input": "entity",
+      "output": "any",
+      "text": "hexlite.page.readwrite.read/entity"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:write/entity",
+      "anchor": "hexlite:write/entity",
+      "input": "entity, any",
+      "output": "",
+      "text": "hexlite.page.readwrite.write/entity"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:readable",
+      "anchor": "hexlite:readable",
+      "input": "",
+      "output": "bool",
+      "text": "hexlite.page.readwrite.readable"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:readable/entity",
+      "anchor": "hexlite:readable/entity",
+      "input": "entity",
+      "output": "bool",
+      "text": "hexlite.page.readwrite.readable/entity"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:writable",
+      "anchor": "hexlite:writable",
+      "input": "",
+      "output": "bool",
+      "text": "hexlite.page.readwrite.writable"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:writable/entity",
+      "anchor": "hexlite:writable/entity",
+      "input": "entity",
+      "output": "bool",
+      "text": "hexlite.page.readwrite.writable/entity"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "hexlite:local",
+      "title": "hexlite.page.readwrite.local.title",
+      "text": "hexlite.page.readwrite.local"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:write/local",
+      "anchor": "hexlite:write/local",
+      "input": "any",
+      "output": "",
+      "text": "hexlite.page.readwrite.write/local"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:read/local",
+      "anchor": "hexlite:read/local",
+      "input": "",
+      "output": "any",
+      "text": "hexlite.page.readwrite.read/local"
+    }
+  ]
+}

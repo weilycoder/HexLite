@@ -1,0 +1,62 @@
+{
+  "name": "hexlite.entry.basic_spell",
+  "category": "hexlite:patterns/spells",
+  "icon": "minecraft:bookshelf",
+  "sortnum": 0,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:explode",
+      "anchor": "hexlite:explode",
+      "input": "vector, number",
+      "output": "",
+      "text": "hexlite.page.basic_spell.explode.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.basic_spell.explode.2"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:explode/fire",
+      "anchor": "hexlite:explode/fire",
+      "input": "vector, number",
+      "output": "",
+      "text": "hexlite.page.basic_spell.explode.fire.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.basic_spell.explode.fire.2"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:add_motion",
+      "anchor": "hexlite:add_motion",
+      "input": "entity, vector",
+      "output": "",
+      "text": "hexlite.page.basic_spell.add_motion"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:blink",
+      "anchor": "hexlite:blink",
+      "input": "entity, number",
+      "output": "",
+      "text": "hexlite.page.basic_spell.blink"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:beep",
+      "anchor": "hexlite:beep",
+      "input": "vector, number, number",
+      "output": "",
+      "text": "hexlite.page.basic_spell.beep.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.basic_spell.beep.2"
+    }
+  ]
+}

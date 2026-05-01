@@ -1,0 +1,126 @@
+{
+  "name": "hexlite.entry.consts",
+  "category": "hexlite:patterns",
+  "icon": "minecraft:bedrock",
+  "sortnum": 3,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:const/true",
+      "anchor": "hexlite:const/true",
+      "input": "",
+      "output": "bool",
+      "text": "hexlite.page.consts.const/true"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:const/false",
+      "anchor": "hexlite:const/false",
+      "input": "",
+      "output": "bool",
+      "text": "hexlite.page.consts.const/false"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:const/null",
+      "anchor": "hexlite:const/null",
+      "input": "",
+      "output": "null",
+      "text": "hexlite.page.consts.const/null"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:const/vec/0",
+      "anchor": "hexlite:const/vec/0",
+      "input": "",
+      "output": "vector",
+      "text": "hexlite.page.consts.const/vec/0"
+    },
+    {
+      "type": "hexlite:manual_pattern",
+      "op_id": "hexlite:const/vec/x",
+      "anchor": "hexlite:const/vec/x",
+      "input": "",
+      "output": "vector",
+      "text": "hexlite.page.consts.const/vec/x",
+      "patterns": [
+        {
+          "startdir": "NORTH_WEST",
+          "signature": "qqqqqea",
+          "q": -1,
+          "r": -1
+        }, {
+          "startdir": "NORTH_EAST",
+          "signature": "eeeeeqa",
+          "r": 1
+        }
+      ]
+    },
+    {
+      "type": "hexlite:manual_pattern",
+      "op_id": "hexlite:const/vec/y",
+      "anchor": "hexlite:const/vec/y",
+      "input": "",
+      "output": "vector",
+      "text": "hexlite.page.consts.const/vec/y",
+      "patterns": [
+        {
+          "startdir": "NORTH_WEST",
+          "signature": "qqqqqew",
+          "q": -1,
+          "r": -1
+        }, {
+          "startdir": "NORTH_EAST",
+          "signature": "eeeeeqw",
+          "r": 1
+        }
+      ]
+    },
+    {
+      "type": "hexlite:manual_pattern",
+      "op_id": "hexlite:const/vec/z",
+      "anchor": "hexlite:const/vec/z",
+      "input": "",
+      "output": "vector",
+      "text": "hexlite.page.consts.const/vec/z",
+      "patterns": [
+        {
+          "startdir": "NORTH_WEST",
+          "signature": "qqqqqed",
+          "q": -1,
+          "r": -1
+        }, {
+          "startdir": "NORTH_EAST",
+          "signature": "eeeeeqd",
+          "r": 1
+        }
+      ]
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:const/double/tau",
+      "anchor": "hexlite:const/double/tau",
+      "input": "",
+      "output": "num",
+      "text": "hexlite.page.consts.const/double/tau"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:const/double/pi",
+      "anchor": "hexlite:const/double/pi",
+      "input": "",
+      "output": "num",
+      "text": "hexlite.page.consts.const/double/pi"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:const/double/e",
+      "anchor": "hexlite:const/double/e",
+      "input": "",
+      "output": "num",
+      "text": "hexlite.page.consts.const/double/e"
+    }
+  ]
+}

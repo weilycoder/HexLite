@@ -1,0 +1,75 @@
+{
+  "name": "hexlite.entry.patterns_as_iotas",
+  "category": "hexlite:patterns",
+  "icon": "minecraft:emerald",
+  "sortnum": 8,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.patterns_as_iotas.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.patterns_as_iotas.2"
+    },
+    {
+      "type": "hexlite:manual_pattern",
+      "header": "hexlite.rawhook.hexlite:escape",
+      "anchor": "hexlite:escape",
+      "text": "hexlite.page.patterns_as_iotas.escape.1",
+      "patterns": {
+        "startdir": "WEST",
+        "signature": "qqqaw"
+      }
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.patterns_as_iotas.escape.2"
+    },
+    {
+      "type": "hexlite:manual_pattern",
+      "header": "hexlite.rawhook.hexlite:open_paren",
+      "anchor": "hexlite:open_paren",
+      "text": "hexlite.page.patterns_as_iotas.parens.1",
+      "patterns": {
+        "startdir": "WEST",
+        "signature": "qqq"
+      }
+    },
+    {
+      "type": "hexlite:manual_pattern",
+      "header": "hexlite.rawhook.hexlite:close_paren",
+      "anchor": "hexlite:close_paren",
+      "text": "hexlite.page.patterns_as_iotas.parens.2",
+      "patterns": {
+        "startdir": "EAST",
+        "signature": "eee"
+      }
+    },
+    {
+      "type": "hexlite:manual_pattern",
+      "header": "hexlite.rawhook.hexlite:undo",
+      "anchor": "hexlite:undo",
+      "text": "hexlite.page.patterns_as_iotas.undo",
+      "patterns": {
+        "startdir": "EAST",
+        "signature": "eeedw"
+      }
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexlite.page.patterns_as_iotas.further_notes.title",
+      "text": "hexlite.page.patterns_as_iotas.further_notes.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.patterns_as_iotas.further_notes.2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.patterns_as_iotas.further_notes.3"
+    }
+  ]
+}

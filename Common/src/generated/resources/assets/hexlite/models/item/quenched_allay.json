@@ -1,0 +1,28 @@
+{
+  "overrides": [
+    {
+      "model": "hexlite:block/quenched_allay_0",
+      "predicate": {
+        "hexlite:variant": 0.0
+      }
+    },
+    {
+      "model": "hexlite:block/quenched_allay_1",
+      "predicate": {
+        "hexlite:variant": 1.0
+      }
+    },
+    {
+      "model": "hexlite:block/quenched_allay_2",
+      "predicate": {
+        "hexlite:variant": 2.0
+      }
+    },
+    {
+      "model": "hexlite:block/quenched_allay_3",
+      "predicate": {
+        "hexlite:variant": 3.0
+      }
+    }
+  ]
+}

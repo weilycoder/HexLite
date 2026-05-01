@@ -1,0 +1,44 @@
+{
+  "name": "hexlite.entry.spellcircles",
+  "category": "hexlite:greatwork",
+  "icon": "minecraft:lodestone",
+  "advancement": "hexlite:enlightenment",
+  "entry_color": "54398a",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.spellcircles.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.spellcircles.2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.spellcircles.3"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.spellcircles.4"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.spellcircles.5"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.spellcircles.6"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.spellcircles.7"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["hexlite:textures/gui/entries/spell_circle.png"],
+      "border": true,
+      "title": "hexlite.page.spellcircles.teleport_circle.title"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "hexlite:block/akashic_bookshelf",
+  "textures": {
+    "overlay": "hexlite:block/akashic_bookshelf_overlay_3"
+  }
+}

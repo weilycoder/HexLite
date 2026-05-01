@@ -1,0 +1,58 @@
+{
+  "name": "hexlite.entry.nadirs",
+  "category": "hexlite:patterns/spells",
+  "icon": "minecraft:potion{Potion:'minecraft:poison'}",
+  "advancement": "hexlite:root",
+  "sortnum": 2,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.nadirs.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.nadirs.2"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:potion/weakness",
+      "anchor": "hexlite:potion/weakness",
+      "input": "entity, number, number",
+      "output": "",
+      "text": "hexlite.page.nadirs.potion/weakness"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:potion/levitation",
+      "anchor": "hexlite:potion/levitation",
+      "input": "entity, number",
+      "output": "",
+      "text": "hexlite.page.nadirs.potion/levitation"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:potion/wither",
+      "anchor": "hexlite:potion/wither",
+      "input": "entity, number, number",
+      "output": "",
+      "text": "hexlite.page.nadirs.potion/wither"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:potion/poison",
+      "anchor": "hexlite:potion/poison",
+      "input": "entity, number, number",
+      "output": "",
+      "text": "hexlite.page.nadirs.potion/poison"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:potion/slowness",
+      "anchor": "hexlite:potion/slowness",
+      "input": "entity, number, number",
+      "output": "",
+      "text": "hexlite.page.nadirs.potion/slowness"
+    }
+  ]
+}

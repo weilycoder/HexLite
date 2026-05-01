@@ -1,0 +1,176 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "hexlite:item/spellbook",
+      "predicate": {
+        "hexlite:overlay_layer": 0.0,
+        "hexlite:variant": 0.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_0_filled",
+      "predicate": {
+        "hexlite:overlay_layer": 1.0,
+        "hexlite:variant": 0.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_0_sealed",
+      "predicate": {
+        "hexlite:overlay_layer": 2.0,
+        "hexlite:variant": 0.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_1",
+      "predicate": {
+        "hexlite:overlay_layer": 0.0,
+        "hexlite:variant": 1.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_1_filled",
+      "predicate": {
+        "hexlite:overlay_layer": 1.0,
+        "hexlite:variant": 1.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_1_sealed",
+      "predicate": {
+        "hexlite:overlay_layer": 2.0,
+        "hexlite:variant": 1.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_2",
+      "predicate": {
+        "hexlite:overlay_layer": 0.0,
+        "hexlite:variant": 2.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_2_filled",
+      "predicate": {
+        "hexlite:overlay_layer": 1.0,
+        "hexlite:variant": 2.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_2_sealed",
+      "predicate": {
+        "hexlite:overlay_layer": 2.0,
+        "hexlite:variant": 2.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_3",
+      "predicate": {
+        "hexlite:overlay_layer": 0.0,
+        "hexlite:variant": 3.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_3_filled",
+      "predicate": {
+        "hexlite:overlay_layer": 1.0,
+        "hexlite:variant": 3.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_3_sealed",
+      "predicate": {
+        "hexlite:overlay_layer": 2.0,
+        "hexlite:variant": 3.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_4",
+      "predicate": {
+        "hexlite:overlay_layer": 0.0,
+        "hexlite:variant": 4.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_4_filled",
+      "predicate": {
+        "hexlite:overlay_layer": 1.0,
+        "hexlite:variant": 4.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_4_sealed",
+      "predicate": {
+        "hexlite:overlay_layer": 2.0,
+        "hexlite:variant": 4.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_5",
+      "predicate": {
+        "hexlite:overlay_layer": 0.0,
+        "hexlite:variant": 5.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_5_filled",
+      "predicate": {
+        "hexlite:overlay_layer": 1.0,
+        "hexlite:variant": 5.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_5_sealed",
+      "predicate": {
+        "hexlite:overlay_layer": 2.0,
+        "hexlite:variant": 5.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_6",
+      "predicate": {
+        "hexlite:overlay_layer": 0.0,
+        "hexlite:variant": 6.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_6_filled",
+      "predicate": {
+        "hexlite:overlay_layer": 1.0,
+        "hexlite:variant": 6.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_6_sealed",
+      "predicate": {
+        "hexlite:overlay_layer": 2.0,
+        "hexlite:variant": 6.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_7",
+      "predicate": {
+        "hexlite:overlay_layer": 0.0,
+        "hexlite:variant": 7.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_7_filled",
+      "predicate": {
+        "hexlite:overlay_layer": 1.0,
+        "hexlite:variant": 7.0
+      }
+    },
+    {
+      "model": "hexlite:item/spellbook_7_sealed",
+      "predicate": {
+        "hexlite:overlay_layer": 2.0,
+        "hexlite:variant": 7.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "hexlite:item/cad/0_spellbook_empty"
+  }
+}

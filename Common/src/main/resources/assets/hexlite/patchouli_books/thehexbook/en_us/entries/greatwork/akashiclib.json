@@ -1,0 +1,32 @@
+{
+  "name": "hexlite.entry.akashiclib",
+  "category": "hexlite:greatwork",
+  "icon": "hexlite:akashic_record",
+  "advancement": "hexlite:enlightenment",
+  "entry_color": "54398a",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.akashiclib.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.akashiclib.2"
+    },
+    {
+      "type": "hexlite:brainsweep",
+      "recipe": "hexlite:brainsweep/akashic_record",
+      "text": "hexlite.page.akashiclib.akashic_record"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:akashic_bookshelf",
+      "recipe2": "hexlite:akashic_connector"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.akashiclib.3"
+    }
+  ]
+}

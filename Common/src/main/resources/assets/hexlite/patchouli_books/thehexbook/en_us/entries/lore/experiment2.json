@@ -1,0 +1,13 @@
+{
+  "name": "hexlite.entry.lore.experiment2",
+  "icon": "hexlite:lore_fragment",
+  "category": "hexlite:lore",
+  "advancement": "hexlite:lore/experiment2",
+  "sortnum": 6,
+  "pages": [
+    "hexlite.page.lore.experiment2.1",
+    "hexlite.page.lore.experiment2.2",
+    "hexlite.page.lore.experiment2.3",
+    "hexlite.page.lore.experiment2.4"
+  ]
+}

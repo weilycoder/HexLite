@@ -1,0 +1,69 @@
+{
+  "name": "hexlite.entry.sets",
+  "category": "hexlite:patterns",
+  "icon": "minecraft:bundle",
+  "sortnum": 11,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.sets.numlist"
+    },
+    {
+      "type": "patchouli:empty"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:or",
+      "anchor": "hexlite:or",
+      "input": "(num, num)|(list, list)",
+      "output": "num|list",
+      "text": "hexlite.page.sets.or.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.sets.or.2"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:and",
+      "anchor": "hexlite:and",
+      "input": "(num, num)|(list, list)",
+      "output": "num|list",
+      "text": "hexlite.page.sets.and.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.sets.and.2"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:xor",
+      "anchor": "hexlite:xor",
+      "input": "(num, num)|(list, list)",
+      "output": "num|list",
+      "text": "hexlite.page.sets.xor.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.sets.xor.2"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:not",
+      "anchor": "hexlite:not",
+      "input": "num",
+      "output": "num",
+      "text": "hexlite.page.sets.not"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:unique",
+      "anchor": "hexlite:unique",
+      "input": "list",
+      "output": "list",
+      "text": "hexlite.page.sets.to_set"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "hexlite:block/deco/slate_amethyst_bricks_0"
+      },
+      {
+        "model": "hexlite:block/deco/slate_amethyst_bricks_1"
+      },
+      {
+        "model": "hexlite:block/deco/slate_amethyst_bricks_2"
+      }
+    ]
+  }
+}

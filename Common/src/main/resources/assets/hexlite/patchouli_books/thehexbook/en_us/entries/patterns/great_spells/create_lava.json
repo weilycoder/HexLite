@@ -1,0 +1,22 @@
+{
+  "name": "hexlite.action.hexlite:create_lava",
+  "category": "hexlite:patterns/great_spells",
+  "icon": "minecraft:lava_bucket",
+  "sortnum": 0,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:create_lava",
+      "anchor": "hexlite:create_lava",
+      "input": "vector",
+      "output": "",
+      "text": "hexlite.page.create_lava.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.create_lava.2"
+    }
+  ]
+}

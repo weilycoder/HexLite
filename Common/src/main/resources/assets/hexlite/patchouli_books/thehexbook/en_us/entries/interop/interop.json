@@ -1,0 +1,11 @@
+{
+  "name": "hexlite.entry.interop",
+  "icon": "minecraft:chain",
+  "category": "hexlite:interop",
+  "flag": "hexlite:any_interop",
+  "pages": [
+    "hexlite.page.interop.1",
+    "hexlite.page.interop.2",
+    "hexlite.page.interop.3"
+  ]
+}

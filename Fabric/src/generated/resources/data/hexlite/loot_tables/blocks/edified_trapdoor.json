@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "hexlite:edified_trapdoor"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "hexlite:blocks/edified_trapdoor"
+}

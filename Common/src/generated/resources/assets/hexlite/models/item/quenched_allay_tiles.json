@@ -1,0 +1,28 @@
+{
+  "overrides": [
+    {
+      "model": "hexlite:block/deco/quenched_allay_tiles_0",
+      "predicate": {
+        "hexlite:variant": 0.0
+      }
+    },
+    {
+      "model": "hexlite:block/deco/quenched_allay_tiles_1",
+      "predicate": {
+        "hexlite:variant": 1.0
+      }
+    },
+    {
+      "model": "hexlite:block/deco/quenched_allay_tiles_2",
+      "predicate": {
+        "hexlite:variant": 2.0
+      }
+    },
+    {
+      "model": "hexlite:block/deco/quenched_allay_tiles_3",
+      "predicate": {
+        "hexlite:variant": 3.0
+      }
+    }
+  ]
+}

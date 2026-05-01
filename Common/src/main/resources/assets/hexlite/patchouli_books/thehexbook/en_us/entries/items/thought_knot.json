@@ -1,0 +1,27 @@
+{
+  "name": "hexlite.entry.thought_knot",
+  "icon": "hexlite:thought_knot",
+  "category": "hexlite:items",
+  "sortnum": 4,
+  "priority": true,
+  "advancement": "hexlite:root",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.thought_knot.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.thought_knot.2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.thought_knot.3"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "hexlite:thought_knot",
+      "text": "hexlite.page.thought_knot.crafting.desc"
+    }
+  ]
+}

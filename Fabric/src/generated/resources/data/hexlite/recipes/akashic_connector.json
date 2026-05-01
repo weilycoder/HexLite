@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "1": {
+      "item": "hexlite:amethyst_dust"
+    },
+    "2": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "3": {
+      "item": "hexlite:charged_amethyst"
+    },
+    "L": {
+      "tag": "hexlite:edified_logs"
+    },
+    "P": {
+      "tag": "hexlite:edified_planks"
+    }
+  },
+  "pattern": [
+    "LPL",
+    "123",
+    "LPL"
+  ],
+  "result": {
+    "count": 4,
+    "item": "hexlite:akashic_connector"
+  },
+  "show_notification": true
+}

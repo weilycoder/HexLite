@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "hexlite:amethyst_bricks"
+    }
+  ],
+  "result": {
+    "item": "hexlite:amethyst_bricks_small"
+  }
+}

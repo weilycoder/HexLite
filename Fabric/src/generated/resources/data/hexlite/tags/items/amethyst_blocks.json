@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:amethyst_block",
+    "hexlite:amethyst_bricks",
+    "hexlite:amethyst_bricks_small",
+    "hexlite:amethyst_tiles",
+    "hexlite:amethyst_pillar"
+  ]
+}

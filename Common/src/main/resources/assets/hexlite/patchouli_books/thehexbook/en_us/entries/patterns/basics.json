@@ -1,0 +1,98 @@
+{
+  "name": "hexlite.entry.basics_pattern",
+  "category": "hexlite:patterns",
+  "icon": "minecraft:wooden_pickaxe",
+  "sortnum": 0,
+  "advancement": "hexlite:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:get_caster",
+      "anchor": "hexlite:get_caster",
+      "input": "",
+      "output": "entity | null",
+      "text": "hexlite.page.basics_pattern.get_caster"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:entity_pos/eye",
+      "anchor": "hexlite:entity_pos/eye",
+      "input": "entity",
+      "output": "vector",
+      "text": "hexlite.page.basics_pattern.entity_pos/eye"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:entity_pos/foot",
+      "anchor": "hexlite:entity_pos/foot",
+      "input": "entity",
+      "output": "vector",
+      "text": "hexlite.page.basics_pattern.entity_pos/foot"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:get_entity_look",
+      "anchor": "hexlite:get_entity_look",
+      "input": "entity",
+      "output": "vector",
+      "text": "hexlite.page.basics_pattern.get_entity_look"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:raycast",
+      "anchor": "hexlite:raycast",
+      "input": "vector, vector",
+      "output": "vector | null",
+      "text": "hexlite.page.basics_pattern.raycast.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.basics_pattern.raycast.2"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:raycast/axis",
+      "anchor": "hexlite:raycast/axis",
+      "input": "vector, vector",
+      "output": "vector | null",
+      "text": "hexlite.page.basics_pattern.raycast/axis.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexlite.page.basics_pattern.raycast/axis.2"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:raycast/entity",
+      "anchor": "hexlite:raycast/entity",
+      "input": "vector, vector",
+      "output": "entity | null",
+      "text": "hexlite.page.basics_pattern.raycast/entity"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:print",
+      "anchor": "hexlite:print",
+      "input": "any",
+      "output": "any",
+      "text": "hexlite.page.basics_pattern.print"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:get_entity_height",
+      "anchor": "hexlite:get_entity_height",
+      "input": "entity",
+      "output": "num",
+      "text": "hexlite.page.basics_pattern.get_entity_height"
+    },
+    {
+      "type": "hexlite:pattern",
+      "op_id": "hexlite:get_entity_velocity",
+      "anchor": "hexlite:get_entity_velocity",
+      "input": "entity",
+      "output": "vector",
+      "text": "hexlite.page.basics_pattern.get_entity_velocity"
+    }
+  ]
+}
