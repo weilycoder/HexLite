@@ -97,7 +97,11 @@ dependencies {
     implementation group: 'com.google.code.findbugs', name: 'jsr305', version: '3.0.1'
     compileOnly project(":Common")
 
-    modImplementation "at.petra-k.paucal:paucal-fabric-$minecraftVersion:$paucalVersion"
+    // Jankson needed by inlined PAUCAL contributors loader in Common
+    implementation 'blue.endless:jankson:1.2.2'
+
+    // PAUCAL sources are copied into the workspace; do not compile against the locally built PAUCAL jar
+    // to avoid mapping/signature mismatches.
     modImplementation "vazkii.patchouli:Patchouli:$minecraftVersion-$patchouliVersion-FABRIC-SNAPSHOT"
 
     modImplementation "com.samsthenerd.inline:inline-fabric:$minecraftVersion-$inlineVersion"
