@@ -1,0 +1,33 @@
+package virtuoel.pehkui.mixin;
+
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.boss.EnderDragonPart;
+import net.minecraft.world.entity.boss.enderdragon.EnderDragon;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.ModifyArg;
+import virtuoel.pehkui.util.ReflectionUtils;
+import virtuoel.pehkui.util.ScaleUtils;
+
+@Mixin(EnderDragon.class)
+public class EnderDragonEntityMixin
+{
+	@ModifyArg(method = "onCrystalDestroyed", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/entity/boss/enderdragon/EnderDragon;hurt(Lnet/minecraft/world/entity/boss/EnderDragonPart;Lnet/minecraft/world/damagesource/DamageSource;F)Z"))
+	private float pehkui$crystalDestroyed$damagePart(EnderDragonPart part, DamageSource source, float amount)
+	{
+		final Entity attacker = ReflectionUtils.getAttacker(source);
+		
+		if (attacker != null)
+		{
+			final float scale = ScaleUtils.getAttackScale(attacker);
+			
+			if (scale != 1.0F)
+			{
+				return amount / scale;
+			}
+		}
+		
+		return amount;
+	}
+}

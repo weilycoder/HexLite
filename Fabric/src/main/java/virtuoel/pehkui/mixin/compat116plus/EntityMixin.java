@@ -1,0 +1,31 @@
+package virtuoel.pehkui.mixin.compat116plus;
+
+import net.minecraft.core.BlockPos;
+import net.minecraft.world.entity.Entity;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Shadow;
+import org.spongepowered.asm.mixin.Unique;
+import org.spongepowered.asm.mixin.injection.Constant;
+import org.spongepowered.asm.mixin.injection.ModifyConstant;
+import virtuoel.pehkui.util.ScaleUtils;
+
+@Mixin(Entity.class)
+public abstract class EntityMixin
+{
+	@Shadow
+	private BlockPos blockPosition;
+	
+	@Unique
+	protected void setPosDirectly(final BlockPos pos)
+	{
+		blockPosition = pos;
+	}
+	
+	@ModifyConstant(method = "updateFluidOnEyes", constant = @Constant(doubleValue = 0.1111111119389534D))
+	private double pehkui$updateSubmergedInWaterState$offset(double value)
+	{
+		final float scale = ScaleUtils.getEyeHeightScale((Entity) (Object) this);
+		
+		return scale != 1.0F ? value * scale : value;
+	}
+}

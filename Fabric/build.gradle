@@ -76,7 +76,7 @@ repositories {
         }
         filter { includeGroup "maven.modrinth" }
     }
-    // pehkui
+    // KanosConfig (Pehkui config library)
     maven { url = "https://jitpack.io" }
 
     // If you have mod jar dependencies in ./libs, you can declare them as a repository like so:
@@ -123,6 +123,11 @@ dependencies {
     include "${modID}:serialization-hooks:$serializationHooksVersion"
     implementation(include("com.github.LlamaLad7:MixinExtras:0.1.1"))
 
+    modImplementation("com.github.Virtuoel:KanosConfig:$kanosConfigVersion") {
+        exclude group: "net.fabricmc.fabric-api"
+    }
+    include "com.github.Virtuoel:KanosConfig:$kanosConfigVersion"
+
     // Optional integrations
 
     modApi("me.shedaniel.cloth:cloth-config-fabric:$clothConfigVersion") {
@@ -133,10 +138,6 @@ dependencies {
     modImplementation "dev.emi:emi-fabric:${emiVersion}"
 
 //    modImplementation "maven.modrinth:gravity-api:$gravityApiVersion"
-    modApi("com.github.Virtuoel:Pehkui:${pehkuiVersion}", {
-        exclude group: "net.fabricmc.fabric-api"
-    })
-
     // *Something* is including an old version of modmenu with a broken mixin
     // We can't figure out what it is
     // so i'm just including a fresher version

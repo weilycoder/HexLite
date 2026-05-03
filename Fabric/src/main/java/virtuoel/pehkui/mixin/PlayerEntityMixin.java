@@ -1,0 +1,138 @@
+package virtuoel.pehkui.mixin;
+
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntityDimensions;
+import net.minecraft.world.entity.Pose;
+import net.minecraft.world.entity.item.ItemEntity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.phys.AABB;
+import net.minecraft.world.phys.Vec3;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Unique;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Constant;
+import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.ModifyArg;
+import org.spongepowered.asm.mixin.injection.ModifyArgs;
+import org.spongepowered.asm.mixin.injection.ModifyConstant;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
+import org.spongepowered.asm.mixin.injection.invoke.arg.Args;
+import virtuoel.pehkui.util.ScaleUtils;
+
+@Mixin(Player.class)
+public abstract class PlayerEntityMixin
+{
+	@Inject(at = @At("RETURN"), method = "getDimensions", cancellable = true)
+	private void pehkui$getDimensions(Pose pose, CallbackInfoReturnable<EntityDimensions> info)
+	{
+		info.setReturnValue(info.getReturnValue().scale(ScaleUtils.getBoundingBoxWidthScale((Entity) (Object) this), ScaleUtils.getBoundingBoxHeightScale((Entity) (Object) this)));
+	}
+	
+	@ModifyArg(method = "aiStep", index = 1, at = @At(value = "INVOKE", target = "Ljava/lang/Math;min(FF)F"))
+	private float pehkui$tickMovement$minVelocity(float value)
+	{
+		final float scale = ScaleUtils.getMotionScale((Entity) (Object) this);
+		return scale != 1.0F ? ScaleUtils.divideClamped(value, scale) : value;
+	}
+	
+	@Inject(at = @At("RETURN"), method = "drop(Lnet/minecraft/world/item/ItemStack;ZZ)Lnet/minecraft/world/entity/item/ItemEntity;")
+	private void pehkui$dropItem(ItemStack stack, boolean spread, boolean thrown, CallbackInfoReturnable<ItemEntity> info)
+	{
+		final ItemEntity entity = info.getReturnValue();
+		
+		if (entity != null)
+		{
+			ScaleUtils.setScaleOfDrop(entity, (Entity) (Object) this);
+			
+			final float scale = ScaleUtils.getEyeHeightScale((Entity) (Object) this);
+			
+			if (scale != 1.0F)
+			{
+				final Vec3 pos = entity.position();
+				
+				entity.setPos(pos.x, pos.y + ((1.0F - scale) * 0.3D), pos.z);
+			}
+		}
+	}
+	
+	@ModifyArgs(method = "aiStep", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/phys/AABB;inflate(DDD)Lnet/minecraft/world/phys/AABB;"))
+	private void pehkui$aiStep$expandBox(Args args)
+	{
+		final float widthScale = ScaleUtils.getBoundingBoxWidthScale((Entity) (Object) this);
+		final float heightScale = ScaleUtils.getBoundingBoxHeightScale((Entity) (Object) this);
+		
+		if (widthScale != 1.0F || heightScale != 1.0F)
+		{
+			final int index = args.get(0) instanceof AABB ? 1 : 0;
+			args.set(index, args.<Double>get(index) * widthScale);
+			args.set(index + 1, args.<Double>get(index + 1) * heightScale);
+			args.set(index + 2, args.<Double>get(index + 2) * widthScale);
+		}
+	}
+	
+	@ModifyConstant(method = "attack(Lnet/minecraft/world/entity/Entity;)V", constant = { @Constant(floatValue = 0.5F, ordinal = 1), @Constant(floatValue = 0.5F, ordinal = 2), @Constant(floatValue = 0.5F, ordinal = 3) })
+	private float pehkui$attack$knockback(float value)
+	{
+		final float scale = ScaleUtils.getKnockbackScale((Entity) (Object) this);
+		
+		return scale != 1.0F ? scale * value : value;
+	}
+	
+	@ModifyConstant(method = "getCurrentItemAttackStrengthDelay", constant = @Constant(doubleValue = 20.0D))
+	private double pehkui$getAttackCooldownProgressPerTick$multiplier(double value)
+	{
+		final float scale = ScaleUtils.getAttackSpeedScale((Entity) (Object) this);
+		
+		return scale != 1.0F ? value / scale : value;
+	}
+	
+	@Inject(at = @At("RETURN"), method = "getDestroySpeed", cancellable = true)
+	private void pehkui$getBlockBreakingSpeed(BlockState block, CallbackInfoReturnable<Float> info)
+	{
+		final float scale = ScaleUtils.getMiningSpeedScale((Entity) (Object) this);
+		
+		if (scale != 1.0F)
+		{
+			info.setReturnValue(info.getReturnValueF() * scale);
+		}
+	}
+	
+	@ModifyConstant(method = "moveCloak", constant = { @Constant(doubleValue = 10.0D), @Constant(doubleValue = -10.0D) })
+	private double pehkui$updateCapeAngles$limits(double value)
+	{
+		final float scale = ScaleUtils.getMotionScale((Entity) (Object) this);
+		
+		return scale != 1.0F ? scale * value : value;
+	}
+	
+	@Unique private static final ThreadLocal<Float> pehkui$WIDTH_SCALE = ThreadLocal.withInitial(() -> 1.0F);
+	@Unique private static final ThreadLocal<Float> pehkui$HEIGHT_SCALE = ThreadLocal.withInitial(() -> 1.0F);
+	
+	@Inject(method = "attack", at = @At("HEAD"))
+	private void pehkui$attack(Entity target, CallbackInfo info)
+	{
+		pehkui$WIDTH_SCALE.set(ScaleUtils.getBoundingBoxWidthScale(target));
+		pehkui$HEIGHT_SCALE.set(ScaleUtils.getBoundingBoxHeightScale(target));
+	}
+	
+	@ModifyArg(method = "attack(Lnet/minecraft/world/entity/Entity;)V", index = 0, at = @At(value = "INVOKE", target = "Lnet/minecraft/world/phys/AABB;inflate(DDD)Lnet/minecraft/world/phys/AABB;"))
+	private double pehkui$attack$expand$x(double value)
+	{
+		return value * pehkui$WIDTH_SCALE.get();
+	}
+	
+	@ModifyArg(method = "attack(Lnet/minecraft/world/entity/Entity;)V", index = 1, at = @At(value = "INVOKE", target = "Lnet/minecraft/world/phys/AABB;inflate(DDD)Lnet/minecraft/world/phys/AABB;"))
+	private double pehkui$attack$expand$y(double value)
+	{
+		return value * pehkui$HEIGHT_SCALE.get();
+	}
+	
+	@ModifyArg(method = "attack(Lnet/minecraft/world/entity/Entity;)V", index = 2, at = @At(value = "INVOKE", target = "Lnet/minecraft/world/phys/AABB;inflate(DDD)Lnet/minecraft/world/phys/AABB;"))
+	private double pehkui$attack$expand$z(double value)
+	{
+		return value * pehkui$WIDTH_SCALE.get();
+	}
+}
