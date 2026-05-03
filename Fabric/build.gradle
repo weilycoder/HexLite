@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version "1.6-SNAPSHOT"
+    id 'fabric-loom' version "1.13.6"
     id "at.petra-k.pkpcpbp.PKSubprojPlugin"
 }
 
@@ -28,7 +28,10 @@ pkSubproj {
 }
 
 loom {
-    mixin.defaultRefmapName = "hexlite.mixins.refmap.json"
+    mixin {
+        useLegacyMixinAp = true
+        defaultRefmapName = "hexlite.mixins.refmap.json"
+    }
 
     accessWidenerPath = file("src/main/resources/fabricasting.accesswidener")
 
@@ -146,15 +149,13 @@ dependencies {
 //    modImplementation "maven.modrinth:phosphor:${phosphorVersion}"
 }
 
-tasks.withType(JavaCompile) {
-    source(project(":Common").sourceSets.main.allSource)
-}
-compileKotlin {
-    source(project(":Common").sourceSets.main.kotlin)
-}
-
 sourcesJar {
     from project(":Common").sourceSets.main.allJava
+}
+
+jar {
+    from project(":Common").sourceSets.main.output
+    duplicatesStrategy 'exclude'
 }
 
 sourceSets {
@@ -169,3 +170,4 @@ processResources {
         expand "version": project.version
     }
 }
+configurations.all { resolutionStrategy { force 'org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.5.0' } }

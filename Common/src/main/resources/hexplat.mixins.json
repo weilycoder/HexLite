@@ -2,7 +2,7 @@
   "minVersion": "0.8",
   "required": true,
   "compatibilityLevel": "JAVA_17",
-  "refmap": "hexlite.mixins.refmap.json",
+  "refmap": "hexlite.common.refmap.json",
   "package": "at.petrak.hexlite.mixin",
   "mixins": [
     "MixinAbstractVillager",

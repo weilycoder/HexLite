@@ -1,11 +1,14 @@
 plugins {
-    id 'org.spongepowered.gradle.vanilla' version '0.2.1-SNAPSHOT'
+    id 'fabric-loom' version "1.13.6"
     id "at.petra-k.pkpcpbp.PKSubprojPlugin"
 }
 
-minecraft {
-    version(minecraftVersion)
-    accessWideners 'src/main/resources/hexplat.accesswidener'
+loom {
+    mixin {
+        useLegacyMixinAp = true
+        defaultRefmapName = "hexlite.common.refmap.json"
+    }
+    accessWidenerPath = file("src/main/resources/hexplat.accesswidener")
 }
 
 repositories {
@@ -14,22 +17,28 @@ repositories {
     maven { url 'https://maven.blamejared.com' }
 
     maven {
-        // location of the maven that hosts JEI files
-        name = "Progwml6 maven"
-        url = "https://dvs1.progwml6.com/files/maven/"
+        name = "SpongePowered"
+        url = "https://repo.spongepowered.org/repository/maven-public/"
     }
     maven {
-        // location of a maven mirror for JEI files, as a fallback
         name = "ModMaven"
         url = "https://modmaven.dev"
     }
 
     maven { url "https://maven.shedaniel.me/" }
+    maven { url "https://maven.terraformersmc.com/releases/" }
+
+    maven {
+        name = "Fabric"
+        url = "https://maven.fabricmc.net/"
+    }
 
 }
 
 dependencies {
-    compileOnly group: 'org.spongepowered', name: 'mixin', version: '0.8.5'
+    minecraft "com.mojang:minecraft:${minecraftVersion}"
+    mappings loom.officialMojangMappings()
+
     implementation group: 'com.google.code.findbugs', name: 'jsr305', version: '3.0.1'
 
     // Jankson used by inlined PAUCAL contributors loader
@@ -37,9 +46,9 @@ dependencies {
 
     // PAUCAL sources have been copied into this project for integration — do not compile against the
     // locally built PAUCAL jar to avoid mapping/signature mismatches.
-    compileOnly "vazkii.patchouli:Patchouli-xplat:$minecraftVersion-$patchouliVersion-SNAPSHOT"
+    modCompileOnly "vazkii.patchouli:Patchouli:$minecraftVersion-$patchouliVersion-FABRIC-SNAPSHOT"
 
-    compileOnly "com.samsthenerd.inline:inline-forge:$minecraftVersion-$inlineVersion"
+    modCompileOnly "com.samsthenerd.inline:inline-fabric:$minecraftVersion-$inlineVersion"
 
     compileOnly "org.jetbrains:annotations:$jetbrainsAnnotationsVersion"
     testCompileOnly "org.jetbrains:annotations:$jetbrainsAnnotationsVersion"
